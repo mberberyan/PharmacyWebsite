@@ -1,0 +1,1186 @@
+﻿/*******************************************************************************************/
+/* Generic Styles (used in all user controls)											   */
+/*******************************************************************************************/
+.left
+{
+    float:left;    
+}
+.right
+{
+    float:right;    
+}
+.clear
+{
+    clear:both;    
+}
+.bottom
+{
+    vertical-align:bottom !important;
+}
+.hidden
+{
+    display: none;
+}
+.mc_pc_label					/* Style for <asp:Label/> controls infront of textboxes,.. */
+{
+	font:12px Tahoma, Arial;
+}
+.mc_pc_small_label					
+{
+	font:11px Tahoma, Arial;
+}
+.mc_pc_static_text
+{
+	font:11px Tahoma, Arial;
+}
+.mc_pc_comment
+{
+	font:10px Tahoma. Arial;	
+	color:#929292;
+}
+.mc_pc_warning_message			
+{
+	font:11px Tahoma, Arial;
+	color:Green;
+}
+.mc_pc_error_message			/* Style used for error labels with ID lblErrorMessage. */
+{
+	font:11px Tahoma, Arial;
+	color:Red;
+	float:left;
+	height:15px;
+	margin:5px 0px 5px 85px;	
+	width:700px;
+}
+.mc_pc_short_error_message			/* Style used for error labels with ID lblErrorMessage. */
+{
+	font:11px Tahoma, Arial;
+	color:Red;
+	float:left;
+	height:15px;
+	margin:5px 0px 5px 5px;		
+}
+.mc_pc_title_text
+{
+    font:24px Tahoma, Arial;
+    font-weight: bold;
+}
+.mc_pc_welcome_page_text
+{
+    font:14px Tahoma, Arial;
+}
+.mc_pc_welcome_page_list li
+{
+    list-style-image:url('Images/circle.png');    
+    font: 12px Tahoma, Arial;
+    padding-bottom:15px;    
+}
+.mc_pc_welcome_page_text_bold
+{
+    font:14px Tahoma, Arial;
+    font-weight: bold;
+}
+.mc_pc_welcome_page_link
+{
+	color:#ffffff;
+	font:12px Tahoma,Arial;
+}
+input.mc_pc_input_short, input.mc_pc_input_long, input.mc_pc_input_extra_short
+{
+	border:none;
+	background: url('Images/input_back.gif') 0 0 repeat-x;
+	border-left: solid 1px #c3c3c3;
+	border-right: solid 1px #c3c3c3;	
+	font:11px Tahoma, Arial;
+	padding:2px 0 5px 0;
+}
+.mc_pc_input_short				/* Style used for short <asp:TextBox/> controls. */
+{
+	width:170px;
+}
+.mc_pc_input_extra_short
+{
+    width:80px;    
+}
+.mc_pc_input_long				/* Style used for long <asp:TextBox/> controls. */
+{
+	width:365px;
+}
+.mc_pc_input_file				/* Style used for <asp:FileUpload/> controls. */
+{
+	width:417px;
+}
+.mc_pc_dropdown_short			/* Style used for short <asp:DropDown/> controls. */
+{
+	font:11px Tahoma, Arial;
+	width:175px;
+}
+.mc_pc_listbox_long			/* Style used for <asp:ListBox/> controls. */
+{
+	font:11px Tahoma, Arial;
+	border-width:0px;
+}
+.mc_pc_listbox_container
+{
+	background-color:#fff;
+	border:solid 1px #7f9db9;
+	cursor:default;
+	font:11px Tahoma, Arial;
+	width:370px;
+	height:120px;
+	overflow:auto;
+}
+.mc_pc_listbox_item
+{
+	padding-left:2px;
+	white-space:nowrap;
+}
+.mc_pc_listbox_selectedItem
+{
+	background-color:Highlight;
+	color:HighlightText;
+	white-space:nowrap;
+}
+.mc_pc_button					/* Style used for <asp:Button/> controls. */
+{
+	border:none;
+	color:#ffffff;
+	cursor:pointer; 
+	font:11px Tahoma, Arial;
+	font-weight:normal;	
+}
+.mc_pc_disabled_button
+{
+    color:#d4d4d4;
+}
+.mc_pc_btn_156					
+{
+	background: url('images/btn_156.gif') 0 0 no-repeat;
+	width:156px;
+	height:23px;
+	padding:3px 0 5px 0px;	
+	*padding:4px 0 4px 0;
+}
+.mc_pc_btn_106				
+{
+	background: url('images/btn_106.gif') 0 0 no-repeat;
+	width:106px;
+	height:23px;	
+	padding:3px 0 5px 0px;
+	*padding:4px 0 4px 0;	
+}
+.mc_pc_btn_61					
+{
+	background: url('images/btn_61.gif') 0 0 no-repeat;
+	width:61px;	
+	height:23px;
+	padding:3px 0 5px 0px;
+	*padding:4px 0 4px 0;
+}
+.mc_pc_btn_26					
+{
+	background: url('images/btn_26.gif') 0 0 no-repeat;
+	width:26px;	
+	height:23px;
+	padding:3px 0 5px 0px;
+	*padding:4px 0 4px 0;
+}
+.mc_pc_btn_delete					
+{
+	background: url('images/btn_delete.gif') 0 0 no-repeat;
+	width:61px;	
+	padding:3px 0 5px 17px;
+	*padding:4px 0 4px 17px;
+}
+.mc_pc_btn_create_template					
+{
+	background: url('images/btn_create_template.gif') 0 0 no-repeat;
+	width:117px;	
+	padding:6px 0 7px 24px;
+}
+.mc_pc_btn_back					
+{
+	background: url('images/btn_back.gif') 0 0 no-repeat;
+	display:block;
+	height:30px;
+	padding:3px 0 5px 27px;
+	*padding:4px 0 4px 27px;
+	text-decoration:none;
+}
+.mc_pc_button_green_color 
+{
+	color:#7eba00;
+}
+.mc_pc_header_link				/* Style used for links in the header of grids */
+{
+	color:#fff;
+	font:12px Tahoma,Arial;
+	font-weight:bold;	
+}
+.mc_pc_validator				/* Style for validator controls. */			
+{
+	color:#A5181A !important;
+}
+.mc_pc_star
+{
+    padding:0 2px;color:Red;    
+}
+.mc_pc_clear 
+{
+	clear: both;
+    display: block;
+    height: 1px;
+    margin-bottom: -1px;
+    font-size: 1px;
+    line-height: 1px;
+}
+.mc_pc_width
+{
+    width:500px;    
+}
+.mc_pc_discount_width
+{
+    width:700px;    
+}
+.mc_pc_success_message
+{
+    padding:5px;
+    color:Green;
+}
+/*******************************************************************************************/
+/* Common GridView styles																   */
+/*******************************************************************************************/
+.mc_pc_grid_wrapper
+{
+    margin-top: 20px;
+    padding:10px 12px 0 5px;
+    border: solid 1px black;
+    width:700px;
+}
+.mc_pc_panel_wrapper
+{    
+    padding:10px 5px 10px 5px;
+    border: solid 1px black;    
+}
+.mc_pc_grid
+{
+	font:12px Tahoma, Arial;
+	padding:0px;
+	background: url('images/grid_th_right.gif') 100% 0 no-repeat;
+	text-align:left;						
+}
+.mc_pc_grid td
+{
+	padding:10px;					
+}
+.mc_pc_grid_header
+{	
+	color:#fff;
+	font:12px Tahoma, Arial;
+	font-weight:bold;	
+	height:25px;	
+}
+.mc_pc_grid_header th
+{
+	padding:0px 0px 0 10px;	
+	height:30px;
+}
+td.mc_pc_grid_header /* DataList control rendersHeaderTemplate to 'td' instead of 'th'*/
+{
+	padding:0px 10px 0 10px;	
+	height:30px;
+}
+.mc_pc_grid_row {background-color:#ffffff;}
+.mc_pc_grid_row img {padding:5px;}
+.mc_pc_grid_alt_row {background-color:#e2e2e2;}
+.mc_pc_grid_alt_row img{padding:5px;}
+.mc_pc_grid_header_colFirst	/* First Column*/
+{
+    color: #8dc63f;
+	background: #373735 url('images/grid_th_left.gif') 0 0 no-repeat;
+	text-align:left;	
+}
+.mc_pc_grid_header_colFirst span
+{
+    color:#fff;
+}
+.mc_pc_grid_header_colFirst a
+{
+    color:#fff;
+}
+.mc_pc_grid_header_colMiddle /* Middle Columns */
+{
+    color: #8dc63f;
+	background: #373735;
+	text-align:left;	
+}
+.mc_pc_grid_header_colMiddle span
+{
+    color:#fff;
+}
+.mc_pc_grid_header_colMiddle a
+{
+    color:#fff;
+}
+.mc_pc_grid_header_colLast	/* Last column */
+{
+    color: #8dc63f;
+	background: #373735 url('images/grid_th_right.gif') no-repeat right;	
+	text-align:left;	
+	padding-right:10px;
+}
+.mc_pc_grid_header_colLast span
+{
+    color:#fff;
+}
+.mc_pc_grid_header_colLast a
+{
+    color:#fff;
+}
+/*******************************************************************************************/
+/* Common Table With Details styles														   */
+/*******************************************************************************************/
+.mc_pc_table
+{
+	width:450px;
+}
+.mc_pc_table th
+{
+	
+}
+.mc_pc_table td
+{
+	vertical-align:top;
+}
+.mc_pc_table td:first-child
+{    
+    padding-top:10px;
+    width:100px !important;
+}
+
+.mc_pc_table table td:first-child
+{    
+    padding-top:0px;
+}
+.mc_pc_table .padding
+{
+    padding-top:10px;
+}
+.mc_pc_table_category_wrapper
+{
+    overflow:auto;
+    width:200px;
+    padding: 5px 0;
+}
+.mc_pc_table_category_list
+{
+    border: solid 1px black;
+    vertical-align:bottom;
+    margin:5px 0;
+}
+.mc_pc_discountTable
+{
+	width:700px !important;	
+}
+.mc_pc_discountTable td:first-child
+{    
+    padding-top:10px;
+}
+
+.mc_pc_discountTable table td:first-child
+{    
+    padding-top:0px;
+}
+.mc_pc_table_popup
+{
+    margin:30px 0 0 15px;    
+}
+.mc_pc_table_popup td
+{
+    white-space:nowrap;    
+}
+.mc_pc_table_listing_wrapper
+{
+    vertical-align:bottom;
+    width:763px;
+}
+.mc_pc_table_listing
+{
+    border:solid 1px black;
+    padding:5px;    
+    width:700px;
+}
+.mc_pc_table_listing td:first-child
+{    
+    padding-top:10px;
+}
+
+.mc_pc_table_listing table td:first-child
+{    
+    padding-top:0px;
+}
+.mc_pc_table_listing_clear_padding
+{
+    padding-top:1px !important;
+}
+.mc_pc_statusTable td
+{
+    vertical-align:bottom !important;    
+}
+/*******************************************************************************************/
+/* Styles used in Hover Scroll control               								       */
+/*******************************************************************************************/
+.mc_pc_divHoverImage
+{
+    padding-left:21px;    
+}
+.mc_pc_divHoverImage img
+{
+    vertical-align:middle;
+    cursor:pointer;
+}
+.mc_pc_divHoverCheck
+{
+    float:left;
+    width:21px;
+    height:19px;    
+}
+.mc_pc_divHoverButton
+{
+    padding-left:21px;    
+}
+/*******************************************************************************************/
+/* Styles used in user control ProductCatalog.ascx   								       */
+/*******************************************************************************************/
+.mc_pc_main
+{
+	background-color:#ffffff;
+	font-family: Tahoma, Arial;
+	font-size:12px;
+}
+.mc_pc_menu_back 
+{
+	background: url('images/menu_back.gif') 0 0 repeat-x;
+	height:39px;	
+	margin:0 auto;
+}
+/*** Menu styles ***/
+.mc_pc_menu_section
+{
+	background: url('images/menu_back.gif') 0 0 repeat-x;
+	width:1066px;
+	*width:1070px;
+	margin:0 auto;
+	text-align:left;		
+}
+.mc_pc_menu_section_left 
+{
+	float:left;
+}
+.mc_pc_menu_item_middle a, .mc_pc_menu_item_middle_selected a,
+.mc_pc_menu_item_first a, .mc_pc_menu_item_first_selected a,
+.mc_pc_menu_item_last a,  .mc_pc_menu_item_last_selected a
+{
+	height:30px;
+	width:100px;
+	text-align:center;
+	color:#272726;
+	text-decoration:none;
+	display:block;
+	font-weight:bold;	
+	padding:9px 0 0 0;
+}
+.mc_pc_menu_item_first a, .mc_pc_menu_item_first_selected a
+{
+	background:url("Images/menu_item_first.gif")  0 0 no-repeat;		
+}
+.mc_pc_menu_item_middle a, .mc_pc_menu_item_middle_selected a
+{
+	background:url("Images/menu_item_middle.gif")  0 0 no-repeat;			
+}
+.mc_pc_menu_item_last a, .mc_pc_menu_item_last_selected a
+{
+	background:url("Images/menu_item_last.gif")  0 0 no-repeat;			
+}
+
+.mc_pc_menu_item_first_selected a, mc_pc_menu_item_middle_selected a,
+.mc_pc_menu_item_last_selected a
+{	
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;	
+}
+.mc_pc_menu_item_middle a:hover, .mc_pc_menu_item_last a:hover,
+.mc_pc_menu_item_first a:hover
+{
+	background-position:0 -39px;		
+}
+
+.mc_pc_menu_item_first_selected a, .mc_pc_menu_item_last_selected a,
+.mc_pc_menu_item_middle_selected a
+{
+	background-position:0 -78px;
+}
+/*** User name style ***/
+.mc_pc_username
+{	
+	float:right;
+	padding:10px;
+	margin-top:-36px;
+}
+/*** Div in which is displayed error message***/
+.mc_pc_panels
+{
+	clear:both;
+	font:11px Tahoma, Arial;	
+	padding:10px 0;
+	width:1066px;
+	*width:1070px;
+	margin:0 auto;
+}
+.mc_pc_panels_table
+{
+    padding:0px;
+    border:0px;
+    width:100%;
+    height: 550px !important; /* for modern browsers */
+    height: 550px; /* for IE5.x and IE6 */
+    min-height: 550px; /* for modern browsers */
+}
+.mc_pc_panels_table td
+{
+    vertical-align:top;
+}
+.mc_pc_panels_inner_section_explorer_padding 
+{
+	background: url('images/panels_inner_section_explorer_top.gif') 0 0 no-repeat;
+	vertical-align:top;		
+	width:763px;	
+}
+.mc_pc_panels_inner_section
+{
+	background-color:#ffffff;
+	border:0px;
+}
+.mc_pc_panels_inner_section_content {
+	background: url('images/panels_inner_section_border.gif') 0 0 repeat-y;
+	padding:10px 0 25px 10px;
+	display:block;	
+}
+.mc_pc_panels_inner_section_footer 
+{
+	background: url('images/panels_inner_section_footer.gif') 0 0 no-repeat;
+	height:13px;			
+}
+.mc_pc_panels_boder_top 
+{
+	background: url('images/panels_inner_section_top_1046.gif') 0 0 no-repeat;
+	padding-top:5px;
+}
+.mc_pc_panels_border_middle
+{	
+	background:#fff url('images/panels_inner_section_border_1046.gif') 0 0 repeat-y;
+	padding:10px 15px 10px 10px;		
+}
+.mc_pc_panels_border_footer
+{	
+	background: url('images/panels_inner_section_footer_1046.gif') 0 0 no-repeat;	
+	height:11px;
+	width:1062px;
+}
+.mc_pc_horizontalDelimiter
+{
+	width:7px;	
+}
+.mc_pc_explorer_layout
+{
+    background:url('Images/blue_dot.gif');
+    height:725px;
+    width:750px;
+}
+/*******************************************************************************************/
+/* Styles used in user control CategoryExplorer.ascx and Explorer.ascx  				   */
+/*******************************************************************************************/
+.mc_pc_explorer
+{
+	padding:0px 0px;
+	width:270px;
+	background: url('Images/explorer_bottom.gif') 0 100% no-repeat;		
+}
+.mc_pc_explorer_filter 
+{
+	clear:both;
+	padding:6px 3px 6px 6px; 		
+}
+.mc_pc_explorer_filter .mc_pc_label 
+{
+	font-size:11px;
+}
+.mc_pc_explorer_actions
+{
+	background: url('images/explorer_actions_back.gif') 0 0 no-repeat;	
+	padding:4px 3px 1px 5px;		
+	width:270px;
+}
+.mc_pc_explorer_actions input
+{
+    cursor:pointer;
+}
+.mc_pc_explorer_actions_move 
+{	
+	float:left;	
+}
+.mc_pc_action_delimiter
+{
+	background: url('images/action_delimiter.gif') 0 0 no-repeat;	
+	float:left;
+	height:24px;
+	margin:0 10px;
+	width:10px;
+}
+.mc_pc_feTree
+{
+	overflow:auto;
+	width:260px;		
+}
+.mc_pc_tree
+{
+	overflow:auto;
+	width:260px;	
+	height:700px;
+}
+.mc_pc_tree td:first-child
+{
+	padding-top:2px; 
+}
+.mc_pc_node
+{
+	color:#000000;
+	font:11px Tahoma, Arial;
+	padding:0 2px;
+	padding:2px;
+}
+.mc_pc_node span
+{
+	color:#000000;
+	font:12px Tahoma, Arial;
+	padding:0 2px;
+	padding:2px;
+}
+.mc_pc_node img
+{
+	vertical-align: middle;
+	margin-right:2px;
+}
+.mc_pc_selected_node span
+{
+	border:dotted 1px #000000;
+	color:#479c06;
+	font:12px Tahoma, Arial;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.mc_pc_descpanel
+{
+    background-color:#e7e7e7;
+    min-height:15px;    
+    padding: 10px;
+    margin-bottom:3px;
+}
+.mc_pc_desclabel
+{
+    padding-right:20px;    
+}
+/*******************************************************************************************/
+/* Styles used in user control MenuTabs.ascx.											   */
+/*******************************************************************************************/
+.mc_pc_tabs 
+{
+	color: #000000;			
+	float:left;
+	padding:0;
+	margin:0;
+	width:750px;	
+}
+.mc_pc_fe_tabs 
+{
+	color: #000000;			
+	float:left;
+	padding:0;
+	margin:0;
+	width:650px;	
+}
+.mc_pc_tabs li 
+{
+	display: inline;
+	overflow: hidden;
+	list-style-type: none; 	
+	float:left;
+}
+.mc_pc_tabs a
+{
+	font-size:12px;
+	font-family: Tahoma, Arial;
+	font-weight:bold;
+	color:#000;
+}
+.mc_pc_tabs li.liGeneral a, 
+.mc_pc_tabs li.liGeneral a.mc_pc_tab_selected
+{
+	background: url("Images/tabFirstMenu_135.gif") 0px 0px no-repeat;
+	width:135px;
+	height:25px;
+	padding:10px 0 0 0;	
+	text-align:center;
+	display:block;
+}
+.mc_pc_tabs li.liDynamicProperties a, 
+.mc_pc_tabs li.liDynamicProperties a.mc_pc_tab_selected
+{
+	background: url("Images/tabMenu_135.gif") 0px 0px no-repeat;
+	width:135px;
+	height:25px;
+	padding:10px 0 0 0;	
+	text-align:center;
+	display:block;
+}
+.mc_pc_tabs li.liImages a, 
+.mc_pc_tabs li.liImages a.mc_pc_tab_selected,
+.mc_pc_tabs li.liAudio a, 
+.mc_pc_tabs li.liAudio a.mc_pc_tab_selected,
+.mc_pc_tabs li.liVideo a, 
+.mc_pc_tabs li.liVideo a.mc_pc_tab_selected,
+.mc_pc_tabs li.liStatistics a, 
+.mc_pc_tabs li.liStatistics a.mc_pc_tab_selected,
+.mc_pc_tabs li.liRelatedProducts a, 
+.mc_pc_tabs li.liRelatedProducts a.mc_pc_tab_selected,
+.mc_pc_tabs li.liProducts a, 
+.mc_pc_tabs li.liProducts a.mc_pc_tab_selected
+{
+	background: url("Images/tabLast.gif") 0px 0px no-repeat;
+	width:90px;
+	height:25px;
+	padding:10px 0 0 0 ;		
+	text-align:center;
+	display:block;
+}
+.mc_pc_tabs a.mc_pc_tab_unselected 
+{
+	cursor:pointer
+}
+
+.mc_pc_tabs li.liGeneral a.mc_pc_tab_selected, 
+.mc_pc_tabs li.liImages a.mc_pc_tab_selected,
+.mc_pc_tabs li.liAudio a.mc_pc_tab_selected,
+.mc_pc_tabs li.liVideo a.mc_pc_tab_selected,
+.mc_pc_tabs li.liStatistics a.mc_pc_tab_selected,
+.mc_pc_tabs li.liDynamicProperties a.mc_pc_tab_selected,
+.mc_pc_tabs li.liRelatedProducts a.mc_pc_tab_selected,
+.mc_pc_tabs li.liProducts a.mc_pc_tab_selected
+{
+	background-position:0 -35px;
+	display:block;
+}
+/*******************************************************************************************/
+/* Styles used in Property Definition DropDown control                                     */
+/*******************************************************************************************/
+.mc_productcatalog_select_free 
+{ 
+    position: absolute;
+    z-index: 10; /*any value*/
+    overflow: hidden; /*must have*/
+    width: 247px; /*must have for any value*/ /*width of area +5*/
+} 
+
+.mc_productcatalog_select-free iframe 
+{ 
+      /*sorry for IE5*/
+    display: /**/ block; /*sorry for IE5*/
+    position: absolute; /*must have*/
+    top: 0px; /*must have*/
+    left: 0px; /*must have*/
+    z-index: -1; /*must have*/
+    filter: mask(); /*must have*/
+    width: 3000px; /*must have for any big value*/
+    height: 3000px /*must have for any big value*/; 
+} 
+
+.mc_productcatalog_select-free .bd 
+{ 
+    padding: 11px; 
+}
+.mc_pc_prop_def_wrapper
+{
+    float:left;
+    position: relative;
+    margin-bottom:30px;
+}
+.mc_pc_prop_def_input
+{
+    width: 242px; 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    z-index: 2;
+}
+.mc_pc_prop_def_select
+{
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    z-index: 1; 
+    width: 265px;
+}
+.mc_pc_prop_def_button
+{
+    float:left;
+    left:270px;
+    position:relative
+}
+.mc_pc_props_table_wrapper
+{
+    padding:5px 0;    
+}
+.mc_pc_props_table
+{
+    border:solid 1px black;
+    margin:5px 0;    
+}
+.mc_pc_props_row
+{
+    empty-cells:show;
+}
+.mc_pc_props_edit_row
+{
+    width:130px;
+}
+/*******************************************************************************************/
+/* Styles used in user control Pager.ascx												   */
+/*******************************************************************************************/
+.mc_pc_pager_wrapper
+{
+    padding-top: 5px;
+}
+.mc_pc_pager 
+{
+	font:12px Tahoma, Arial;
+	padding:10px 10px 10px 0;
+	font-weight:bold;
+	color:#479C06;
+}
+.mc_pc_pager a
+{
+	color:#000;
+}
+.mc_pc_pager_lbl
+{
+	color:#000;
+	font:11px Tahoma, Arial;
+	font-weight:bold;
+}
+.mc_pc_pager a.mc_pc_next, .mc_pc_pager a.mc_pc_previous
+{
+	 font:11px Tahoma, Arial;
+	 font-weight:bold;
+}
+.mc_pc_pager a.mc_pc_next
+{
+	 background: url('images/next.gif') 100% 80% no-repeat;
+	 padding-right:8px;
+}
+.mc_pc_pager a.mc_pc_previous
+{
+	 background: url('images/previous.gif') 0% 80% no-repeat;
+	 padding-left:8px;
+}
+
+
+/*******************************************************************************************/
+/* Styles used in user control DiscountInformation.ascx				                       */
+/*******************************************************************************************/
+.mc_pc_comment
+{
+	font:11px Tahoma, Arial;
+}
+.mc_pc_calendar td
+{
+	padding:0px ! important;
+}   
+.mc_pc_divDate
+{
+	float:left;
+	padding-right:3px;
+}
+.mc_pc_calendar_space
+{
+    padding-top:10px;
+}
+.mc_pc_calendar_space span
+{
+    padding:10px 5px 0px 8px;        
+}
+.mc_pc_space_bottom
+{
+    vertical-align:bottom;
+    
+}
+/*******************************************************************************************/
+/* Styles used in user control Export.ascx				                       */
+/*******************************************************************************************/
+.exportTable
+{    
+    margin-bottom:5px;
+    border:0px; 
+    width:100%;   
+}
+.exportTable tr
+{
+    background-color:#d1d1d1;        
+}
+.exportTable tr td
+{
+    padding:0px 3px; 
+    white-space:nowrap;   
+}
+.exportTable tr td:first-child 
+{
+    padding-left:15px;    
+}
+.altRow td
+{
+    height:20px;        
+    white-space:nowrap;
+}
+.print_table
+{
+	text-decoration:none;
+	font-family:Verdana;
+	font-size:10px;
+	vertical-align:middle;
+	color:#000000;
+	height:19;
+	border-collapse:collapse;
+	padding:4px;
+	border:1px solid grey;
+	width:100%;	
+}
+
+/*******************************************************************************************/
+/* Styles used in user control ProductReview.ascx				                           */
+/*******************************************************************************************/
+.mc_pc_frame_preview
+{	
+	width:640px;
+	height: 290px;
+}
+.mc_pc_popup_background
+{
+	background-color:Gray;
+	filter:alpha(opacity = 70);
+	opacity:0.7;
+}
+.mc_pc_div_preview
+{
+	background-color:#fff;
+	padding:10px;
+	width:650px;
+	height: 320px;
+}
+.mc_pc_div_border
+{
+    border:solid 1px #000000;
+    width:650px;	
+    height: 320px;
+}
+.mc_pc_div_close_preview
+{
+	float:right;		
+}
+.mc_pc_tabReview
+{
+    width:600px;
+    margin:30px 0 0 15px;
+}
+.mc_pc_tabReview td
+{
+    white-space:nowrap;
+}
+.mc_pc_rating_1
+{
+    src: url('Images/rating_1.gif');    
+}
+.mc_pc_rating_2
+{
+    src: url('Images/rating_2.gif');    
+}
+.mc_pc_rating_3
+{
+    src: url('Images/rating_3.gif');    
+}
+.mc_pc_rating_4
+{
+    src: url('Images/rating_4.gif');    
+}
+.mc_pc_rating_5
+{
+    src: url('Images/rating_5.gif');    
+}
+
+/*******************************************************************************************/
+/* Styles used in user control ProductSet.ascx                                             */
+/*******************************************************************************************/
+.mc_pc_lnk_expand, .mc_pc_lnk_collapse
+{
+	font:12px Tahoma, Arial;
+}
+.mc_pc_lnk_expand
+{
+	background:url("Images/arrow_down.gif") 0px 50% no-repeat;
+	padding-left:20px;
+	text-decoration:underline;
+	cursor:pointer;
+}
+.mc_pc_lnk_collapse
+{
+	background:url("Images/arrow_up.gif") 0px 50% no-repeat;
+	padding-left:20px;
+	text-decoration:underline;
+	cursor:pointer;
+}
+.mc_pc_tabProductSetResults_wrapper
+{
+    padding-top:20px;    
+    width:700px;    
+}
+.mc_pc_tabProductSetResults
+{
+	border:solid 1px #373735;
+	clear:both;
+	margin-top:5px;		
+	background-color:#f7f7f7;
+	width:719px !important;
+	padding:10px 5px 0 5px;
+	
+	
+}
+/*******************************************************************************************/
+/* Styles used in user control AccessDenied.ascx                                           */
+/*******************************************************************************************/
+.mc_pc_MessagePanel
+{
+    padding:10px;    
+}
+/*******************************************************************************************/
+/* Common styles used in Object Details user controls                                      */
+/*******************************************************************************************/
+.mc_pc_objectDetailsPanel
+{
+    width:650px;    
+}
+.mc_pc_objectImage
+{
+    margin-right:20px;    
+}
+.mc_pc_objectLongDesc
+{
+    width:450px;    
+}
+.mc_pc_objectPrice
+{
+    
+}
+.mc_pc_productListing
+{
+    padding-top:20px;    
+}
+
+#reviewRating{float:left; clear:both; width:100%; height:auto; padding:0px; margin:0px;}
+#reviewRating li{float:left;list-style:none;}
+#reviewRating li a:hover,
+#reviewRating .on{background:url(Images/star_on.gif) no-repeat;}
+#reviewRating a{float:left;background:url(Images/star_off.gif) no-repeat;width:12px; height:12px;}
+.saved{color:red; }
+
+/*******************************************************************************************/
+/* Styles filter               */
+/*******************************************************************************************/
+.filter, .gv_box {
+    border: solid 1px #b6bbbd;
+    padding: 10px;
+    margin: 7px 0px;
+
+}
+.filter h3 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 10px 2px;
+}
+.filter select {
+    font-size: 10px;
+    width: 100px;
+    padding: 3px;
+}
+.searchButton, .shortButton, .longButton
+{
+    background: #272727;
+    border: none;
+    color: #8dc63f;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 15px;
+    --margin-top: 10px;    
+    cursor:pointer;
+    width:70px;
+}
+.shortButton
+{
+    width:70px;
+}
+.longButton
+{
+    width:110px;
+}
+/*******************************************************************************************/
+/* Styles footer               */
+/*******************************************************************************************/
+.pc_footer {
+    clear: both;       
+}
+.empty
+{
+    height:10px;
+}
+.bottomBox_first {
+    float: left;
+    padding-right:10px;    
+}
+.bottomBox_middle {
+    float: left;
+    padding:0 8px;    
+}
+.bottomBox_last {
+    float: left;
+    padding-left:10px;    
+}
+.bottomBox_first a, .bottomBox_middle a, .bottomBox_last a{
+    height: 72px;
+    width: 270px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    border: solid 1px #b6bbbd;
+    background: url(images/bottomBox-bg.jpg) repeat-x 0 0;
+}
+.bottomBox_first a h1, .bottomBox_middle a h1, .bottomBox_last a h1 {
+ font-size: 18px;
+ color: #000;
+ font-weight: normal;
+ text-transform: uppercase;
+ margin: 20px 0 5px 0;
+}
+.landingcontent
+{
+    border-bottom:solid 1px #8dc63f;
+}

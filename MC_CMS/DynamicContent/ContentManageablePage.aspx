@@ -1,0 +1,1 @@
+<%@ Page Language="C#" Title="CMS Draft" Inherits="Melon.Components.CMS.UI.CodeBehind.ContentManageablePage" ValidateRequest="false" Culture="auto" meta:resourcekey="Page" CodeFile="ContentManageablePage.aspx.cs" Theme="Default" %>

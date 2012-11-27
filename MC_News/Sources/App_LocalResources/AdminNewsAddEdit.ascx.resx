@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAddNews.Text" xml:space="preserve">
+    <value>Add News</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnCancel.Width" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="btnCloseLinkedNews.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnClosePreviewNews.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnPreview.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="btnPreview.Width" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnSave.Width" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="chkIsApproved.Text" xml:space="preserve">
+    <value>Is Approved</value>
+  </data>
+  <data name="chkIsFeatured.Text" xml:space="preserve">
+    <value>Is Featured</value>
+  </data>
+  <data name="chkRemovePhoto.Text" xml:space="preserve">
+    <value>Remove Photo</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Comments {0} on ({1}) from {2} total</value>
+  </data>
+  <data name="cvText.ErrorMessage" xml:space="preserve">
+    <value>Enter text.</value>
+  </data>
+  <data name="cvTimePosted.ErrorMessage" xml:space="preserve">
+    <value>Incorrect date and time combination.</value>
+  </data>
+  <data name="DateFormat" xml:space="preserve">
+    <value>(mm/dd/yyyy)</value>
+  </data>
+  <data name="lblBy.Text" xml:space="preserve">
+    <value>by</value>
+  </data>
+  <data name="lblCategory.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="lblCreatedOn.Text" xml:space="preserve">
+    <value>Created on</value>
+  </data>
+  <data name="lblIdTitle.Text" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="lblLastUpdatedOn.Text" xml:space="preserve">
+    <value>Last updated on</value>
+  </data>
+  <data name="lblNewsDetails.Text" xml:space="preserve">
+    <value>News Details</value>
+  </data>
+  <data name="lblPhoto.Text" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="lblPhotoDescription.Text" xml:space="preserve">
+    <value>Photo Description</value>
+  </data>
+  <data name="lblPostedBy.Text" xml:space="preserve">
+    <value>Posted By</value>
+  </data>
+  <data name="lblPostedOn.Text" xml:space="preserve">
+    <value>Posted On</value>
+  </data>
+  <data name="lblPreviewTitle.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="lblSource.Text" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="lblSubTitle.Text" xml:space="preserve">
+    <value>Sub-title</value>
+  </data>
+  <data name="lblTags.Text" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="lblTagsInstructions.Text" xml:space="preserve">
+    <value>(Tags should be comma separated.)</value>
+  </data>
+  <data name="lblText.Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="lblTo.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="lblValidFrom.Text" xml:space="preserve">
+    <value>Valid From</value>
+  </data>
+  <data name="lbtnAddLinkedNews.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lbtnManageComments.Text" xml:space="preserve">
+    <value>Manage Comments</value>
+  </data>
+  <data name="lbtnRemove.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="LinkedNewsTitle" xml:space="preserve">
+    <value>Linked News ({0})</value>
+  </data>
+  <data name="lnkDisabledLnkManageComments.Text" xml:space="preserve">
+    <value>Manage Comments</value>
+  </data>
+  <data name="NA" xml:space="preserve">
+    <value>NA</value>
+  </data>
+  <data name="NewsAddTitle" xml:space="preserve">
+    <value>Manage News - Add News</value>
+  </data>
+  <data name="NewsEditTitle" xml:space="preserve">
+    <value>Manage News - Edit News</value>
+  </data>
+  <data name="PhotoNotAllowedExtensionErrorMessage" xml:space="preserve">
+    <value>Photo "{0}" has not allowed extension.</value>
+  </data>
+  <data name="PhotoNotAllowedSizeErrorMessage" xml:space="preserve">
+    <value>Photo "{0}" exceeds the size limit of {1} KB.</value>
+  </data>
+  <data name="PhotoRemoveErrorMessage" xml:space="preserve">
+    <value>Deletion of news photo "{0}" failed.</value>
+  </data>
+  <data name="PhotoUploadErrorMessage" xml:space="preserve">
+    <value>Upload of news photo "{0}" failed.</value>
+  </data>
+  <data name="PhotoUploadInstructions" xml:space="preserve">
+    <value>(The photo should be one of the following types: {0} and with size less than {1} KB.)</value>
+  </data>
+  <data name="RemoveLinkedNewsErrorMessage" xml:space="preserve">
+    <value>Error occured whil trying to remove the linked news.</value>
+  </data>
+  <data name="revDatePosted.ErrorMessage" xml:space="preserve">
+    <value>Incorrect date format.</value>
+  </data>
+  <data name="revDateValidFrom.ErrorMessage" xml:space="preserve">
+    <value>Incorrect date format.</value>
+  </data>
+  <data name="revDateValidTo.ErrorMessage" xml:space="preserve">
+    <value>Incorrect date format.</value>
+  </data>
+  <data name="revPhotoPath.ErrorMessage" xml:space="preserve">
+    <value>Incorrect format of photo path.</value>
+  </data>
+  <data name="rfvTitle.ErrorMessage" xml:space="preserve">
+    <value>Enter title.</value>
+  </data>
+  <data name="SaveNewsErrorMessage" xml:space="preserve">
+    <value>Error occured while trying to save the news.</value>
+  </data>
+  <data name="SaveNewsSuccessfulMessage" xml:space="preserve">
+    <value>News details were successfully saved.</value>
+  </data>
+  <data name="TryToEditNotExistingNews" xml:space="preserve">
+    <value>The news you are trying to edit doesn't exist anymore. It could be deleted by another user.</value>
+  </data>
+  <data name="UnauthorizedAccessException" xml:space="preserve">
+    <value>Access to path "{0}" is denied.</value>
+  </data>
+  <data name="WriterTryToEditApprovedNews" xml:space="preserve">
+    <value>You are not allowed to edit the news because it was approved by administrator.</value>
+  </data>
+</root>

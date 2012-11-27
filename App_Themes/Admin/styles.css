@@ -1,0 +1,105 @@
+﻿/*******************************************************************************************/
+/* Common styles																		   */
+/*******************************************************************************************/
+body {
+	font:12px Tahoma, Arial;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+.title {
+	color:#000;
+	font:24px Tahoma, Arial;
+	margin:0px;
+}
+.input {
+	border:none;
+    background: url('images/input_back.gif') 0 0 repeat-x;
+    border-left: solid 1px #c3c3c3;
+	border-right: solid 1px #c3c3c3;	
+	font:11px Tahoma, Arial;
+	padding:4px 0 5px 0;
+	width:220px;
+}
+.validar, .validator, .error {
+	color:Red! important;
+}
+.disabled {
+    background: url('images/input_back_disabled.gif') 0 0 repeat-x;
+}
+.required_field
+{
+    color:Red;
+}
+/*******************************************************************************************/
+/* Styles used in MPAdmin.master														   */
+/*******************************************************************************************/
+.admin_border {
+	border:solid 1px #c3c3c3;
+}
+.main_panel {
+    clear:both;
+   /*width:1200px;*/
+    padding:15px 10px 15px 10px;
+    margin:0 auto;
+}
+.min_height {										
+	height: 550px !important; /* for modern browsers */
+    height: 550px; /* for IE5.x and IE6 */
+    min-height: 550px; /* for modern browsers */
+    
+}
+/*******************************************************************************************/
+/* Styles used in Header.ascx														       */
+/*******************************************************************************************/
+.header {
+	background: url('images/menu_back.gif') 0 0 repeat-x;
+	height:39px;	
+	margin:0 auto;
+}
+.menu_item a, .menu_item_selected a,
+.menu_item_first a, .menu_item_first_selected a,
+.menu_item_last a,  .menu_item_last_selected a {
+	height:25px;
+	width:141px;
+	text-align:center;
+	color:#272726;
+	text-decoration:none;
+	display:block;
+	font-weight:bold;	
+	padding:9px 0 0 0 ! important;
+}
+.menu_item_small a{
+    width:121px;
+}
+.menu_item_first a, .menu_item_first_selected a {
+	background:url("Images/menu_item_first.gif")  0 0 no-repeat;	
+	width:121px;		
+}
+.menu_item a, .menu_item_selected a {
+	background:url("Images/menu_item.gif")  0 0 no-repeat;		
+}
+.menu_item_last a, .menu_item_last_selected a {
+	background:url("Images/menu_item_last.gif")  0 0 no-repeat;	
+	width:152px;		
+}
+.menu_item_first_selected a, menu_item_selected a,
+.menu_item_last_selected a {	
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;	
+}
+.menu_item a:hover, .menu_item_last a:hover,
+.menu_item_first a:hover {
+	background-position:0 -39px;
+}
+.menu_item_first_selected a, .menu_item_last_selected a,
+.menu_item_selected a {
+	background-position:0 -78px;
+}

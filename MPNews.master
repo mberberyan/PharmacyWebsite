@@ -1,0 +1,26 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MPNews.master.cs" Inherits="MPNews" MasterPageFile="~/MPBase.master" %>
+<%@ Register TagPrefix="melon" TagName="Languages" Src="~/Controls/Languages.ascx" %>
+<%@ Register TagPrefix="melon" TagName="Categories" Src="~/MC_News/Sources/Categories.ascx" %>
+<%@ Register TagPrefix="melon" Assembly="Melon.Components.News" Namespace="Melon.Components.News.UI.Controls"%>
+
+<asp:Content ID="cHead" ContentPlaceHolderID="head" runat="server">
+  
+</asp:Content>
+<asp:Content ID="c" ContentPlaceHolderID="cphBase" runat="server">
+     <melon:NewsRSS ID="cntrlNewsRSS" runat="server"/>
+    
+    <!-- Begin Left News Categories-->
+    <div class="inner_sub_nav">
+        <melon:Categories ID="cntrlCategories" runat="server" SelectedCategoryCssClass="mc_news_selected_category"/>
+    </div>
+    <!-- End Left News Categories-->
+    
+    <!-- Begin Right News List-->
+    <div class="inner_right_content">
+       <h2 class="page_title"><asp:Label ID="lblNews" meta:resourceKey="lblNews" runat="server" /></h2>
+       <asp:ContentPlaceHolder ID="cphNews" runat="server">
+                        </asp:ContentPlaceHolder>
+    </div>
+    <!-- End News List-->
+</asp:Content>
+

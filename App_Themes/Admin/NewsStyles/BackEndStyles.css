@@ -1,0 +1,906 @@
+﻿/*******************************************************************************************/
+/* General Styles used in user controls of News Administration										       */
+/*******************************************************************************************/
+img
+{
+	border:0px;
+}
+.mc_news_label			/* Style for <asp:Label/> controls infront of textboxes,.. */
+{
+	font:12px Tahoma, Arial;
+}
+.mc_news_input_short, .mc_news_input_long /* Style used for <asp:TextBox/> controls. */
+{
+	border:none;
+	background: url('BackEndImages/input_back.gif') 0 0 repeat-x;
+	border-left: solid 1px #c3c3c3;
+	border-right: solid 1px #c3c3c3;	
+	font:11px Tahoma, Arial;
+	padding:4px 0 5px 0;
+}
+.mc_news_input_short	/* Style used for short <asp:TextBox/> controls. */
+{
+	width:167px;
+}
+.mc_news_input_long		/* Style used for long <asp:TextBox/> controls. */
+{
+	width:300px;
+}
+.mc_news_listbox
+{
+	font:11px Tahoma, Arial;
+	width:395px;
+}
+.mc_news_button			/* Style used for <asp:Button/> controls. */
+{
+	border:none;
+	color:#ffffff;
+	cursor:pointer; 
+	font:11px Tahoma, Arial;
+	font-weight:normal;	
+	height:23px;
+}
+.mc_news_btn_61					
+{
+	background: url('BackEndImages/btn_61.gif') 0 0 no-repeat;
+	width:61px ! important;	
+	padding:3px 0 5px 0px;
+	*padding:4px 0 4px 0;
+}
+.mc_news_btn_delete_expired					
+{
+	background: url('BackEndImages/btn_delete_all_expired.gif') 0 0 no-repeat;
+	width:124px ! important;
+	padding:3px 0 5px 14px;
+	*padding:4px 0 4px 14px;
+}
+.mc_news_btn_add_news, .mc_news_btn_link_news				
+{
+	background: url('BackEndImages/btn_add_news.gif') 0 0 no-repeat;
+	width:88px ! important;
+	padding:3px 0 5px 10px;
+	*padding:4px 0 4px 10px;
+}
+.mc_news_btn_category_add
+{
+	background: url('BackEndImages/btn_add_category.gif') 0 0 no-repeat;
+	width:106px ! important;
+	padding:3px 0 5px 10px;
+	*padding:4px 0 4px 10px;
+}
+.mc_news_dropdown		/* Style used for short <asp:DropDownList/> controls. */
+{
+	font:11px Tahoma, Arial;
+	width:167px;
+}
+.mc_news_input_file		/* Style used for <asp:FileUpload/> controls. */
+{
+	font:11px Tahoma, Arial;
+	width:395px;
+}
+.mc_news_header_link	/* Style used for links in the header of grids */
+{
+	color:#fff;
+	font:12px Tahoma,Arial;
+	font-weight:bold;	
+}
+.mc_news_validator
+{
+	font:11px Tahoma, Arial;
+	color:Red;
+}
+.mc_news_message
+{
+	font:12px Tahoma, Arial;
+	color:Green;
+}
+.mc_news_error_message
+{
+	font:11px Tahoma, Arial;
+	color:Red;
+}
+.mc_news_title
+{
+	color:#000;
+	font:24px Tahoma, Arial;
+}
+.mc_news_clear
+{
+	clear:both;
+}
+.mc_news_lblNotTranslated
+{
+	font-style:italic ! important;
+}
+.mc_news_comment
+{
+	font:11px Tahoma, Arial;
+}
+.mc_news_calendar td
+{
+	padding:0px ! important;
+}
+.mc_news_padding3
+{
+	padding-left:3px;
+}
+/*******************************************************************************************/
+/* Styles for Common Table With Details													   */
+/*******************************************************************************************/
+.mc_news_table
+{
+	margin-bottom:15px;
+	background: url('BackEndImages/grid_th_right.gif') 100% 0 no-repeat;
+}
+.mc_news_table th
+{
+	background: url('BackEndImages/grid_th_left.gif') 0% 0 no-repeat;
+	color:#fff;
+	font:12px Tahoma, Arial;
+	font-weight:bold;
+	height:30px;
+	padding:0 5px;	
+	text-align:left;
+}
+.mc_news_table td
+{
+	padding:5px 0px 4px 10px;
+}
+/*.mc_news_table_row_padding td
+{
+	padding-top:10px!important;
+}*/
+
+/*******************************************************************************************/
+/* Styles for Common GridView															   */
+/*******************************************************************************************/
+.mc_news_grid
+{
+	font:11px Tahoma, Arial;
+	padding:0px;
+	background: url('BackEndImages/grid_th_right.gif') 100% 0 no-repeat;
+	text-align:left;	
+}
+.mc_news_grid td
+{
+	padding:10px 0px 10px 10px;
+}
+.mc_news_grid_header
+{
+	color:#fff;
+	font:12px Tahoma, Arial;
+	font-weight:bold;	
+	height:25px;		
+}
+.mc_news_grid_header th
+{
+	padding:0px 0px 0 10px;	
+	height:30px;
+}
+.mc_news_grid_row
+{
+
+}
+.mc_news_grid_alt_row
+{
+	background-color:#e2e2e2;
+}
+.mc_news_link_btn
+{
+	color:#616266;
+	font:12px Tahoma, Arial;
+	font-weight:bold;
+}
+.mc_news_disabled_lnk
+{
+	color:Gray;
+	font:12px Tahoma, Arial;
+	font-weight:bold;
+}
+
+/*******************************************************************************************/
+/* Styles used in user control NewsAdministration.ascx												       */
+/*******************************************************************************************/
+.mc_news_popup_error_background, .mc_news_popup_background
+{
+	background-color:Gray;
+	filter:alpha(opacity = 70);
+	opacity:0.7;
+}
+.mc_news_popup_error_title
+{
+	color:#636365;
+	font-size:14px;
+	font-weight:bold;
+	padding-bottom:5px;
+}
+.mc_news_popup_error
+{
+	background-color:#f5f5f5;
+	border:solid 1px Gray;
+	color:#636365;
+	font-family:Tahoma, Arial;
+	font-size:12px;
+	padding:10px;
+	width:300px;
+}
+.mc_news_main_panel
+{
+	background-color:#ffffff;
+	font-family: Tahoma, Arial;
+	font-size:12px;
+}
+.mc_news_menu_back
+{
+	background: url('BackEndImages/menu_back.gif') 0 0 repeat-x;
+	height:39px;	
+	margin:0 auto;
+}
+.mc_news_div_menu
+{
+	margin:0 auto;
+	text-align:left;	
+	width:1066px;
+	*width:1070px;
+}
+/*** Menu styles ***/
+.mc_news_menu
+{
+	float:left;
+}
+.mc_news_menu table
+{
+	border-collapse:collapse;
+}
+.mc_news_menu_item_first a, .mc_news_menu_item_first_selected a,
+.mc_news_menu_item_middle a, .mc_news_menu_item_middle_selected a,
+.mc_news_menu_item_last a,  .mc_news_menu_item_last_selected a
+{
+	height:30px;
+	width:151px;
+	text-align:center;
+	color:#272726;
+	text-decoration:none;
+	display:block;
+	font-weight:bold;	
+	padding:9px 0 0 0;
+}
+.mc_news_menu_item_first a,  .mc_news_menu_item_first_selected a
+{
+	width:152px;
+}
+.mc_news_menu_item_first a, .mc_news_menu_item_first_selected a
+{
+	background:url("BackEndImages/menu_item_first.gif")  0 0 no-repeat;			
+}
+.mc_news_menu_item_middle a, .mc_news_menu_item_middle_selected a
+{
+	background:url("BackEndImages/menu_item_middle.gif")  0 0 no-repeat;		
+}
+.mc_news_menu_item_last a, .mc_news_menu_item_last_selected a
+{
+	background:url("BackEndImages/menu_item_last.gif")  0 0 no-repeat;			
+}
+.mc_news_menu_item_first_selected a, .mc_news_menu_item_middle_selected a,
+.mc_news_menu_item_last_selected a
+{	
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;	
+	background-position:0 -78px;
+}
+.mc_news_menu_item_first a:hover, .mc_news_menu_item_middle a:hover,
+.mc_news_menu_item_last a:hover
+{
+	background-position:0 -39px;
+}
+/*** User name style ***/
+.mc_news_username
+{
+	display:inline;
+	float:right;
+	padding:10px;
+}
+.mc_news_panel_content
+{
+	clear:both;
+	font:11px Tahoma, Arial;
+	padding:5px 0 10px 0;
+	width:1066px;
+	*width:1070px;
+	margin:0 auto;
+}
+.mc_news_panels_boder_top 
+{
+	background: url('BackEndImages/panels_inner_section_top_1046.gif') 0 0 no-repeat;
+	margin-top:15px;
+}
+.mc_news_panels_border_middle
+{	
+	background:#fff url('BackEndImages/panels_inner_section_border_1046.gif') 0 0 repeat-y;
+	padding:10px 15px 10px 10px;
+}
+.mc_news_panels_border_footer
+{	
+	background: url('BackEndImages/panels_inner_section_footer_1046.gif') 0 0 no-repeat;	
+}
+.mc_news_main_table
+{
+	background-color:#fff;
+	height: 550px !important; /* for modern browsers */
+    height: 550px; /* for IE5.x and IE6 */
+    min-height: 550px; /* for modern browsers */
+    margin:0 auto;
+}
+.mc_news_main_table td
+{
+	vertical-align:top;
+}
+/*******************************************************************************************/
+/* Styles used in user control AdminNewsList.ascx										   */
+/*******************************************************************************************/
+/*** Search Area ***/
+.mc_news_filter
+{
+	width:100%;
+}
+.mc_news_filter td
+{
+	vertical-align:baseline;
+}
+.mc_news_filter_inner 
+{
+	margin:10px 0px 15px 0px;
+	background-color:#f2f2f2;
+	padding:10px;
+}
+.mc_news_lblCategory, .mc_news_lblWrittenBy, .mc_news_lblShowOnlyTranslated
+{
+	margin-left:13px;
+}
+.mc_news_newsid_lbl
+{
+	padding-left:17px;
+}
+.mc_news_btnReset, .mc_news_btnSearch
+{
+	margin:0 5px 5px 0px;
+}
+.mc_news_lblPublishedBetween
+{
+	margin-left:45px;
+}
+.mc_news_lblAnd
+{
+	margin:0 7px;
+}
+.mc_news_lnk_expand, .mc_news_lnk_collapse
+{
+	font:12px Tahoma, Arial;
+}
+.mc_news_lnk_expand
+{
+	background:url("BackEndImages/down.gif") 0px 50% no-repeat;
+	padding-left:20px;
+	text-decoration:underline;
+	cursor:pointer;
+}
+.mc_news_lnk_collapse
+{
+	background:url("BackEndImages/up.gif") 0px 50% no-repeat;
+	padding-left:20px;
+	text-decoration:underline;
+	cursor:pointer;
+}
+.mc_news_divAdvancedSearch
+{
+	border-top:solid 1px #373735;
+	clear:both;
+	margin-top:5px;
+	padding-top:7px;
+	
+}
+.mc_news_lbl_checkbox_search_in				
+{
+	padding-top:3px;
+}
+.mc_news_checkbox_search_in
+{
+	margin-top:-3px;
+}
+/*Grid with news*/
+.mc_news_newslist_header_first_column
+{
+	background: url('BackEndImages/grid_th_left.gif') 0% 0 no-repeat;
+}
+.mc_news_newslist_header_col1 /* Checkbox column */
+{
+	width:20px;
+	text-align:center;
+}
+.mc_news_newslist_col1
+{
+	width:20px;
+	text-align:center;
+}
+.mc_news_newslist_header_col2 /* Id */
+{
+	width:60px;
+}
+.mc_news_newslist_col2
+{
+	
+}
+.mc_news_newslist_header_col3 /* Title */
+{
+	
+}
+.mc_news_newslist_col3
+{
+}
+.mc_news_newslist_header_col4 /* SubTitle */
+{
+	
+}
+.mc_news_newslist_col4
+{
+}
+.mc_news_newslist_header_col5 /* Category */
+{
+	width:80px;
+	text-align:center;
+}
+.mc_news_newslist_col5
+{
+	text-align:center;
+}
+.mc_news_newslist_header_col6  /* Author */
+{
+	width:100px;
+	text-align:center;
+}
+.mc_news_newslist_col6
+{
+	text-align:center;
+}
+.mc_news_newslist_header_col7  /* DatePosted */
+{
+	width:100px;
+	text-align:center;
+}
+.mc_news_newslist_col7
+{
+	text-align:center;
+}
+.mc_news_newslist_header_col8  /* IsFeatured */
+{
+	width:58px;
+	text-align:center;
+}
+.mc_news_newslist_col8
+{
+	text-align:center;
+}
+.mc_news_newslist_header_col9  /* Approve/Disapprove */
+{
+	width:90px;
+	text-align:center;
+}
+.mc_news_newslist_col9
+{
+	text-align:center;
+}
+.mc_news_newslist_header_col10  /* Actions */
+{
+	width:157px;
+}
+.mc_news_newslist_col10
+{
+	width:157px;
+	text-align:left;
+}
+.mc_news_actions td
+{
+	padding:0 0 0 10px;
+	border:0;
+	white-space:nowrap;
+}
+/*******************************************************************************************/
+/* Styles used in user control AdminNewsAddEdit.ascx									   */
+/*******************************************************************************************/
+.mc_news_tbl_addedit
+{
+
+}
+.mc_news_ddlHourPosted
+{
+	margin-left:26px;
+}
+.mc_news_tbl_linked_news
+{
+	width:485px;
+}
+.mc_news_chkIsApproved
+{
+	padding-left:20px;
+}
+.mc_news_divDate
+{
+	float:left;
+	padding-right:3px;
+}
+.mc_news_not_visible_category
+{
+	color:Gray;
+}
+.mc_news_linked_news_popup
+{
+	width:1090px;
+	vertical-align:top;
+	background-color:#fff;
+	padding:10px;
+}
+.mc_news_div_close_search_news
+{
+	float:right;
+}
+.mc_news_div_preview
+{
+	background-color:#fff;
+	padding:10px;
+	width:650px;
+	height:750px;
+}
+.mc_news_div_title_preview
+{
+	float:left;
+}
+.mc_news_div_close_preview
+{
+	float:right;
+}
+.mc_news_frame_preview
+{
+	margin-top:5px;
+	width:100%;
+	height:95%;
+	border:solid 1px #000000;
+}
+.mc_news_btns_left
+{
+	float:left;
+	padding-top:30px;
+}
+.mc_news_btns_right
+{
+	float:right;
+	padding-top:30px;
+}
+/*******************************************************************************************/
+/* Styles used in user control AdminUserList.ascx										   */
+/*******************************************************************************************/
+/*** Search Area ***/
+.mc_news_user_filter
+{
+	margin:10px 0px 15px 0px;
+	background-color:#f2f2f2;
+	padding:10px;
+}
+.mc_news_user_filter_btns
+{
+	vertical-align:baseline;
+	text-align:right;
+}
+.mc_news_user_filter_table_divBtnSearch
+{
+	padding:10px 0 5px 0;
+}
+/* Styles for checkboxes for News user roles. */
+.mc_news_lbl_checkbox_roles				
+{
+	float:left;
+}
+.mc_news_checkbox_roles
+{
+	border:none;
+	float:left;
+	font:12px Tahoma, Arial;	
+	margin-top:-11px;	
+	margin-left:10px;
+}
+.mc_news_checkbox_roles td
+{
+	padding:5px 0 0 0;
+}
+/* Styles for radio buttons for News user roles. */
+.mc_news_radiobutton
+{	
+	border:none;
+	font:11px Arial;
+	margin-top:-5px;
+}
+.mc_news_radiobutton td
+{
+	border:none !important;
+	padding:0px !important;
+}
+/* Styles for GridView gvUsers */
+.mc_news_userlist_header_col1	/* First Name */
+{
+	background: url('BackEndImages/grid_th_left.gif') 0% 0 no-repeat;
+	text-align:left;
+	width:170px;
+}
+.mc_news_userlist_header_col2	/* Last Name */
+{
+	text-align:left;
+	width:170px;
+}
+.mc_news_userlist_header_col3	/* User Name */
+{
+	text-align:left;
+	width:170px;
+}
+.mc_news_userlist_header_col4	/* Email */
+{
+	text-align:left;
+	width:240px;
+}
+.mc_news_userlist_header_col5	/* Additional Info */
+{
+	text-align:left;
+	width:300px;
+}
+.mc_news_userlist_header_col6	/* User Role */
+{
+	text-align:left;
+	width:230px;
+}
+.mc_news_userlist_col1
+{
+	vertical-align:top;
+}
+.mc_news_userlist_col2
+{
+	vertical-align:top;
+}
+.mc_news_userlist_col3
+{
+	vertical-align:top;
+}
+.mc_news_userlist_col4
+{
+	vertical-align:top;
+}
+.mc_news_userlist_col5
+{
+	vertical-align:top;
+}
+.mc_news_userlist_col6
+{
+	vertical-align:top;
+}
+
+/*******************************************************************************************/
+/* Styles used in user control AdminCategoryList.ascx									   */
+/*******************************************************************************************/
+.mc_news_categorylist_td
+{
+	padding-top:15px;
+}
+/* Styles for GridView gvCategories */
+.mc_news_categorylist_header_col1	/* Id */
+{
+	background: url('BackEndImages/grid_th_left.gif') 0% 0 no-repeat;
+	text-align:left;
+	width:60px;
+}
+.mc_news_categorylist_header_col2	/* Category Name */
+{
+	text-align:left;
+	width:270px;
+}
+.mc_news_categorylist_header_col3	/* Is Visible */
+{
+	text-align:center;
+	width:100px;
+}
+.mc_news_categorylist_header_col4	/* News Count */
+{
+	text-align:center;
+	width:100px;
+}
+.mc_news_categorylist_header_col5	/* Actions */
+{
+	text-align:left;
+	width:245px;
+}
+.mc_news_categorylist_col1
+{
+	vertical-align:top;
+}
+.mc_news_categorylist_col2
+{
+	vertical-align:top;
+}
+.mc_news_categorylist_col3
+{
+	vertical-align:top;
+	text-align:center;
+}
+.mc_news_categorylist_col4
+{
+	vertical-align:top;
+	text-align:center;
+}
+.mc_news_categorylist_col5
+{
+	vertical-align:top;
+}
+
+/*******************************************************************************************/
+/* Styles used for user control AdminCategoryAddEdit.ascx							       */
+/*******************************************************************************************/
+.mc_news_tbl_category
+{
+	width:530px;
+}
+.mc_news_chkIsVisible
+{
+	margin:0px 0 0px -4px;
+}
+
+/*******************************************************************************************/
+/* Styles used for user control AdminCommentList.ascx							           */
+/*******************************************************************************************/
+.mc_news_comment_filter
+{
+	margin:10px 0px 15px 0px;
+	background-color:#f2f2f2;
+	padding:10px;
+}
+.mc_news_comment_filter td
+{
+	vertical-align:baseline;
+}
+.mc_news_comment_filter_status
+{
+	padding-left:10px;
+	display:inline;
+}
+.mc_news_comments_filter_tdButtons
+{
+	padding-left:20px;
+}
+.mc_news_comments_filter_divBtnSearch
+{
+	padding-bottom:5px;
+}
+.mc_news_commentlist_header_col1 /* Comment Text */
+{
+	background: url('BackEndImages/grid_th_left.gif') 0% 0 no-repeat;
+}
+.mc_news_commentlist_col1
+{
+}
+.mc_news_commentlist_header_col2   /* Author*/
+{
+	width:100px;
+	text-align:center;
+}
+.mc_news_commentlist_col2
+{
+	text-align:center;
+}
+.mc_news_commentlist_header_col3 /* Date Posted*/
+{
+	width:100px;
+	text-align:center;
+}
+.mc_news_commentlist_col3
+{
+	text-align:center;
+}
+.mc_news_commentlist_header_col4 /* News Title*/
+{
+	width:250px;
+}
+.mc_news_commentlist_col4
+{
+	
+}
+.mc_news_commentlist_header_col5 /* News Id*/
+{
+	width:70px;
+}
+.mc_news_commentlist_col5
+{
+	
+}
+.mc_news_commentlist_header_col6 /*IsApproved*/
+{
+	width:100px;
+	text-align:center;
+}
+.mc_news_commentlist_col6
+{
+	text-align:center;
+}
+.mc_news_commentlist_header_col7 /*Edit & Delete*/
+{
+	width:100px;
+}
+.mc_news_commentlist_col7
+{
+}
+
+/*******************************************************************************************/
+/* Styles used for user control AdminCommentAddEdit.ascx								   */
+/*******************************************************************************************/
+.mc_news_tbl_edit_comments
+{
+	margin-top:20px;
+}
+.mc_news_cooment_chk_approve
+{
+	margin-left:-3px;
+	padding-left:0px;
+}
+/*******************************************************************************************/
+/* Styles used for user control AdminLanguages.ascx										   */
+/*******************************************************************************************/
+.mc_news_langs
+{
+	margin-top:10px;
+}
+.mc_news_lang_link				
+{
+	color:#000;
+	font:12px Tahoma, Arial;
+	font-weight:bold;
+}
+.mc_news_lang_link_selected				
+{
+	color:#479c06;
+	font:12px Tahoma, Arial;
+	font-weight:bold;
+}
+.mc_news_lang_delimiter
+{
+	width:5px;
+}
+/*******************************************************************************************/
+/* Styles used for user control Pager.ascx												   */
+/*******************************************************************************************/
+.mc_news_pager 
+{
+	font:12px Tahoma, Arial;
+	padding:10px 10px 10px 0;
+	font-weight:bold;
+	color:#479C06;
+}
+.mc_news_pager a
+{
+	color:#000;
+}
+.mc_news_pager_lbl
+{
+	color:#000;
+	font:11px Tahoma, Arial;
+	font-weight:bold;
+}
+.mc_news_pager a.mc_news_next, .mc_news_pager a.mc_news_previous
+{
+	font:11px Tahoma, Arial;
+	 font-weight:bold;
+}
+.mc_news_pager a.mc_news_next
+{
+	 background: url('BackEndImages/next.gif') 100% 80% no-repeat;
+	 padding-right:8px;
+}
+.mc_news_pager a.mc_news_previous
+{
+	 background: url('BackEndImages/previous.gif') 0% 80% no-repeat;
+	 padding-left:8px;
+}

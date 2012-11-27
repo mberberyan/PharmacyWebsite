@@ -1,0 +1,1085 @@
+﻿/*******************************************************************************************/
+/* Generic Styles (used in all user controls)											   */
+/*******************************************************************************************/
+.mc_cms_label					/* Style for <asp:Label/> controls infront of textboxes,.. */
+{
+	font:12px Tahoma, Arial;
+}
+.mc_cms_static_text
+{
+	font:11px Tahoma, Arial;
+}
+.mc_cms_comment
+{
+	font:10px Tahoma, Arial;	
+	color:#929292;
+}
+.mc_cms_title
+{
+	color:#000;
+	font:24px Tahoma, Arial;
+}
+.mc_cms_warning_message			
+{
+	font:11px Tahoma, Arial;
+	color:Green;
+}
+.mc_cms_error_message			/* Style used for error labels with ID lblErrorMessage. */
+{
+	font:11px Tahoma, Arial;
+	color:Red;
+}
+input.mc_cms_input_short, input.mc_cms_input_long
+{
+	border:none;
+	background: url('images/input_back.gif') 0 0 repeat-x;
+	border-left: solid 1px #c3c3c3;
+	border-right: solid 1px #c3c3c3;	
+	font:11px Tahoma, Arial;
+	padding:4px 0 5px 0;
+}
+.mc_cms_input_short				/* Style used for short <asp:TextBox/> controls. */
+{
+	width:170px;
+}
+.mc_cms_input_long				/* Style used for long <asp:TextBox/> controls. */
+{
+	width:365px;
+}
+.mc_cms_input_file				/* Style used for <asp:FileUpload/> controls. */
+{
+	width:417px;
+}
+.mc_cms_dropdown_short			/* Style used for short <asp:DropDown/> controls. */
+{
+	font:11px Tahoma, Arial;
+	width:175px;
+}
+.mc_cms_listbox_long			/* Style used for <asp:ListBox/> controls. */
+{
+	font:11px Tahoma, Arial;
+	border-width:0px;
+}
+.mc_cms_listbox_container
+{
+	background-color:#fff;
+	border:solid 1px #7f9db9;
+	cursor:default;
+	font:11px Tahoma, Arial;
+	width:370px;
+	height:120px;
+	overflow:auto;
+}
+.mc_cms_listbox_item
+{
+	padding-left:2px;
+	white-space:nowrap;
+}
+.mc_cms_listbox_selectedItem
+{
+	background-color:Highlight;
+	color:HighlightText;
+	white-space:nowrap;
+}
+.mc_cms_button					/* Style used for <asp:Button/> controls. */
+{
+	border:none;
+	color:#ffffff;
+	cursor:pointer;
+	font:11px Tahoma, Arial;
+	font-weight:normal;	
+}
+.mc_cms_btn_156					
+{
+	background: url('images/btn_156.gif') 0 0 no-repeat;
+	width:156px;
+	height:23px;
+	padding:3px 0 5px 0px;	
+	*padding:4px 0 4px 0;
+}
+.mc_cms_btn_106				
+{
+	background: url('images/btn_106.gif') 0 0 no-repeat;
+	width:106px;
+	height:23px;	
+	padding:3px 0 5px 0px;
+	*padding:4px 0 4px 0;	
+}
+.mc_cms_btn_61					
+{
+	background: url('images/btn_61.gif') 0 0 no-repeat;
+	width:61px;	
+	height:23px;
+	padding:3px 0 5px 0px;
+	*padding:4px 0 4px 0;
+}
+/*.mc_cms_btn_delete					
+{
+	background: url('images/btn_delete.gif') 0 0 no-repeat;
+	width:61px;	
+	padding:3px 0 5px 17px;
+	*padding:4px 0 4px 17px;
+}*/
+.mc_cms_btn_create_template					
+{
+	background: url('images/btn_create_template.gif') 0 0 no-repeat;
+	width:117px;	
+	height:28px;
+	padding:6px 0 7px 24px;
+}
+.mc_cms_btn_back					
+{
+	background: url('images/btn_back.gif') 0 0 no-repeat;
+	display:block;
+	height:30px;
+	padding:3px 0 5px 27px;
+	*padding:4px 0 4px 27px;
+	text-decoration:none;
+}
+.mc_cms_button_green_color 
+{
+	color:#7eba00;
+}
+.mc_cms_link_btn
+{
+	color:#616266;
+	font:12px Tahoma, Arial;
+	font-weight:bold;
+}
+.mc_cms_header_link				/* Style used for links in the header of grids */
+{
+	color:#fff;
+	font:12px Tahoma,Arial;
+	font-weight:bold;	
+}
+.mc_cms_validator				/* Style for validator controls. */			
+{
+	color:#A5181A !important;
+}
+.mc_cms_table_row_padding td
+{
+	padding-top:10px!important;
+}
+.mc_cms_clear 
+{
+	clear: both;
+    display: block;
+    height: 1px;
+    margin-bottom: -1px;
+    font-size: 1px;
+    line-height: 1px;
+}
+.mc_cms_min_height {										
+	height: 550px !important; /* for modern browsers */
+    height: 550px; /* for IE5.x and IE6 */
+    min-height: 550px; /* for modern browsers */
+}
+
+/*******************************************************************************************/
+/* Common GridView styles																   */
+/*******************************************************************************************/
+.mc_cms_grid
+{
+	font:11px Tahoma, Arial;
+	padding:0px;
+	background: url('images/grid_th_right.gif') 100% 0 no-repeat;
+	text-align:left;	
+}
+.mc_cms_grid td
+{
+	padding:10px 0px 10px 10px;
+}
+.mc_cms_grid_header
+{	
+	color:#fff;
+	font:12px Tahoma, Arial;
+	font-weight:bold;	
+	height:25px;	
+}
+.mc_cms_grid_header th
+{
+	padding:0px 0px 0 10px;	
+	height:30px;
+}
+.mc_cms_grid_row
+{	
+}
+.mc_cms_grid_alt_row
+{
+	background-color:#e2e2e2;
+}
+/*******************************************************************************************/
+/* Common Table With Details styles														   */
+/*******************************************************************************************/
+.mc_cms_table
+{
+	background: url('images/grid_th_right.gif') 100% 0 no-repeat;
+	margin-bottom:15px;
+}
+.mc_cms_table th
+{
+	background: url('images/grid_th_left.gif') 0% 0 no-repeat; 
+	color:#fff;
+	font:12px Tahoma, Arial;
+	font-weight:bold;
+	height:30px;
+	padding:0 5px;	
+	text-align:left;
+}
+.mc_cms_table td
+{
+	padding:5px 0px 4px 10px;
+}
+
+/*******************************************************************************************/
+/* Styles used in user control CMS.ascx												       */
+/*******************************************************************************************/
+.mc_cms_main
+{
+	background-color:#ffffff;
+	font-family: Tahoma, Arial;
+	font-size:12px;
+}
+.mc_cms_menu_back 
+{
+	background: url('images/menu_back.gif') 0 0 repeat-x;
+	height:39px;	
+	margin:0 auto;
+}
+/*** Menu styles ***/
+.mc_cms_menu_section
+{
+	background: url('images/menu_back.gif') 0 0 repeat-x;
+	width:1066px;
+	*width:1070px;
+	margin:0 auto;
+	text-align:left;		
+}
+.mc_cms_menu_section_left 
+{
+	float:left;
+}
+.mc_cms_menu_item_template a, .mc_cms_menu_item_template_selected a,
+.mc_cms_menu_item_explorer a, .mc_cms_menu_item_explorer_selected a,
+.mc_cms_menu_item_users a,  .mc_cms_menu_item_users_selected a
+{
+	height:30px;
+	width:151px;
+	text-align:center;
+	color:#272726;
+	text-decoration:none;
+	display:block;
+	font-weight:bold;	
+	padding:9px 0 0 0;
+}
+.mc_cms_menu_item_explorer a, .mc_cms_menu_item_explorer_selected a
+{
+	background:url("Images/menu_item_OpenExplorer.gif")  0 0 no-repeat;	
+	width:152px;		
+}
+.mc_cms_menu_item_template a, .mc_cms_menu_item_template_selected a
+{
+	background:url("Images/menu_item_OpenTemplates.gif")  0 0 no-repeat;		
+}
+.mc_cms_menu_item_users a, .mc_cms_menu_item_users_selected a
+{
+	background:url("Images/menu_item_OpenUsers.gif")  0 0 no-repeat;			
+}
+
+.mc_cms_menu_item_explorer_selected a, mc_cms_menu_item_template_selected a,
+.mc_cms_menu_item_users_selected a
+{	
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;	
+}
+.mc_cms_menu_item_template a:hover, .mc_cms_menu_item_users a:hover,
+.mc_cms_menu_item_explorer a:hover
+{
+	background-position:0 -39px;
+}
+
+.mc_cms_menu_item_explorer_selected a, .mc_cms_menu_item_users_selected a,
+.mc_cms_menu_item_template_selected a
+{
+	background-position:0 -78px;
+}
+/*** User name style ***/
+.mc_cms_username
+{
+	display:inline;
+	float:right;
+	padding:10px;
+}
+/*** Div in which is displayed error message***/
+.mc_cms_div_error_message
+{
+	clear:both;
+	height:15px;
+	margin:5px 5px 5px 15px;	
+	width:900px;
+}
+.mc_cms_panels
+{
+	clear:both;
+	font:11px Tahoma, Arial;	
+	padding:10px 0;
+	width:1066px;
+	*width:1070px;
+	margin:0 auto;
+}
+.mc_cms_panels_inner_section_explorer_padding 
+{
+	background: url('images/panels_inner_section_explorer_top.gif') 0 0 no-repeat;
+	vertical-align:top;	
+}
+.mc_cms_panels_inner_section
+{
+	background-color:#ffffff;
+	border:0px;
+}
+.mc_cms_panels_inner_section_content {
+	background: url('images/panels_inner_section_border.gif') 0 0 repeat-y;
+	padding:10px 0 0 0;
+	display:block;	
+}
+.mc_cms_panels_inner_section_footer 
+{
+	background: url('images/panels_inner_section_footer.gif') 0 0 no-repeat;
+	height:13px;		
+}
+.mc_cms_panels_boder_top 
+{
+	background: url('images/panels_inner_section_top_1046.gif') 0 0 no-repeat;
+	padding-top:5px;
+}
+.mc_cms_panels_border_middle
+{	
+	background:#fff url('images/panels_inner_section_border_1046.gif') 0 0 repeat-y;
+	padding:10px 15px 10px 10px;		
+}
+.mc_cms_panels_border_footer
+{	
+	background: url('images/panels_inner_section_footer_1046.gif') 0 0 no-repeat;	
+	height:11px;
+	width:1062px;
+}
+.mc_cms_horizontalDelimiter
+{
+	width:7px;	
+}
+.mc_cms_img_transparent
+{
+	height:640px;
+	width:1px;
+	font-size:1px;
+}
+.mc_cms_back_link
+{
+	color:#2561db;
+	font:12px Arial;
+}
+.mc_cms_target_options
+{
+	float:left;
+	margin-left:-7px;	
+}
+/*******************************************************************************************/
+/* Styles used in user control TemplateList.ascx										   */
+/*******************************************************************************************/
+
+/* CMS_Styles for GridView gvTemplates */
+.mc_cms_templatelist_header_col1	/* Name */
+{
+	text-align:left;
+	background: url('images/grid_th_left.gif') 0% 0 no-repeat;
+	width:240px;
+}
+.mc_cms_templatelist_header_col2	/* Master Page */
+{
+	text-align:left;
+	/*width:300px;*/
+}
+.mc_cms_templatelist_header_col3	/* Placeholders */
+{
+	text-align:left;
+	width:240px;
+}
+.mc_cms_templatelist_header_col4	/* Used By */
+{
+	text-align:center;
+	width:100px;
+}
+.mc_cms_templatelist_header_col5	/* Buttons */
+{
+	text-align:left;
+	width:100px;
+}
+.mc_cms_templatelist_col1
+{
+	vertical-align:top;
+}
+.mc_cms_templatelist_col2
+{
+	vertical-align:top;
+}
+.mc_cms_templatelist_col3
+{
+	vertical-align:top;
+}
+.mc_cms_templatelist_col4
+{
+	text-align:center;
+	vertical-align:top;
+}
+.mc_cms_templatelist_col5
+{
+	vertical-align:top;
+	text-align:left;
+}
+
+/*******************************************************************************************/
+/* Styles used in user control TemplateAddEdit.ascx									   */
+/*******************************************************************************************/
+.mc_cms_margin_top 
+{
+	margin-top:15px;
+}
+.mc_cms_lstMasterPages
+{
+	height:145px;
+}
+.mc_cms_divPlaceholders
+{
+	height:130px;
+	overflow:auto;
+	padding-left:10px;
+	padding-top:5px;
+	width:150px;
+}
+.mc_cms_divPlaceholders ul 
+{
+	padding:5px 0 0 15px; 
+	margin:0px;
+}
+/*******************************************************************************************/
+/* Styles used in user control UserList.ascx											   */
+/*******************************************************************************************/
+.mc_cms_min_height td
+{
+	vertical-align:top;
+}
+/*** Search Area ***/
+.mc_cms_user_filter
+{
+	margin:10px 0px 15px 0px;
+	background-color:#f2f2f2;
+	padding:10px;
+}
+.mc_cms_user_filter_btns
+{
+	vertical-align:baseline;
+	text-align:right;
+}
+.mc_cms_user_filter_table_divBtnSearch
+{
+	padding:10px 0 5px 0;
+}
+.mc_cms_input_filter_user			
+{
+	width:205px;
+}
+/* Styles for checkboxes for CMS Roles. */
+.mc_cms_checkbox_label				
+{
+	float:left;
+	margin-right:10px;
+}
+.mc_cms_checkbox
+{
+	border:none;
+	float:left;
+	font:12px Tahoma, Arial;	
+	margin-top:-6px;	
+}
+.mc_cms_checkbox td
+{
+	padding:0px 0px 0px 5px !important;
+}
+/* Styles for radiobuttons for CMS Roles. */
+.mc_cms_radiobutton
+{	
+	border:none;
+	font:11px Tahoma, Arial;
+	margin-top:-5px;
+}
+.mc_cms_radiobutton td
+{
+	border:none !important;
+	padding:0px !important;
+}
+/* Styles for GridView gvUsers */
+.mc_cms_userlist_header_col1	/* First Name */
+{
+	background: url('images/grid_th_left.gif') 0 0 no-repeat;
+	text-align:left;
+	width:160px;
+}
+.mc_cms_userlist_header_col2	/* Last Name */
+{
+	text-align:left;
+	width:150px;
+}
+.mc_cms_userlist_header_col3	/* User Name */
+{
+	text-align:left;
+	width:170px;
+}
+.mc_cms_userlist_header_col4	/* Email */
+{
+	text-align:left;
+	width:180px;
+}
+.mc_cms_userlist_header_col5	/* CMS Role */
+{
+	text-align:left;
+	width:330px;
+}
+.mc_cms_userlist_col1
+{
+	vertical-align:top;
+}
+.mc_cms_userlist_col2
+{
+	vertical-align:top;
+}
+.mc_cms_userlist_col3
+{
+	vertical-align:top;
+}
+.mc_cms_userlist_col4
+{
+	vertical-align:top;
+}
+.mc_cms_userlist_col5
+{
+	vertical-align:top;
+}
+
+/*******************************************************************************************/
+/* Styles used in user control Explorer.ascx											   */
+/*******************************************************************************************/
+.mc_cms_explorer
+{
+	padding:0px 0px;
+	width:270px;
+	background: url('images/explorer_bottom.gif') 0 100% no-repeat;		
+}
+.mc_cms_explorer_filter 
+{
+	clear:both;
+	padding:6px 3px 6px 6px; 		
+}
+.mc_cms_explorer_filter .mc_cms_label 
+{
+	font-size:11px;
+}
+.mc_cms_explorer_actions
+{
+	background: url('images/explorer_actions_back.gif') 0 0 no-repeat;	
+	padding:4px 3px 1px 5px;		
+}
+.mc_cms_explorer_actions_move 
+{
+	margin:4px 0 0 0;
+	float:left;
+}
+.mc_cms_action_delimiter
+{
+	background: url('images/action_delimiter.gif') 0 0 no-repeat;	
+	float:left;
+	height:24px;
+	margin:0 10px;
+	width:2px;
+}
+.mc_cms_tree
+{
+	overflow:auto;
+	width:260px;	
+	height:770px;
+}
+.mc_cms_tree td:first-child
+{
+	padding-top:2px; 
+}
+.mc_cms_node
+{
+	color:#000000;
+	font:11px Tahoma, Arial;
+	padding:0 2px;
+	padding:2px;
+}
+.mc_cms_node span
+{
+	color:#000000;
+	font:12px Tahoma, Arial;
+	padding:0 2px;
+	padding:2px;
+}
+.mc_cms_node img
+{
+	vertical-align: middle;
+	margin-right:2px;
+}
+.mc_cms_selected_node span
+{
+	border:dotted 1px #000000;
+	color:#479c06;
+	font:12px Tahoma, Arial;
+	font-weight:bold;
+	text-decoration:underline;
+}
+/*******************************************************************************************/
+/* Styles used in user control WorkArea.ascx.											   */
+/*******************************************************************************************/
+.mc_cms_explorer_layout
+{
+    /*
+	background:#ffffff url("Images/blue_dot.gif") 0 0 repeat;
+	height:835px;
+	width:750px;	
+	*/
+	background:url("Images/welcome_bgr.gif") 0 0 no-repeat;
+	height:538px;
+	--  width:752px;
+}
+.mc_cms_title_text
+{
+    font:24px Tahoma, Arial;
+    font-weight: bold;
+}
+.mc_cms_welcome_page_text
+{
+    font:14px Tahoma, Arial;
+}
+.mc_cms_welcome_page_list li
+{
+    list-style-image:url('Images/circle.png');    
+    font: 12px Tahoma, Arial;
+    padding-bottom:15px;    
+}
+.mc_cms_welcome_page_text_bold
+{
+    font:14px Tahoma, Arial;
+    font-weight: bold;
+}
+.mc_cms_welcome_page_link
+{
+	color:#ffffff;
+	font:12px Tahoma,Arial;
+}
+.mc_cms_language_bar
+{
+	margin-top:-35px;
+	color:#000000;	
+	text-align:right;
+}
+.mc_cms_preview_draft,.mc_cms_preview_live					
+{
+	color:#fff;
+	font:11px Tahoma, Arial;
+	float:left;
+	padding:6px 0 0 30px;
+	height:22px;	
+	width:113px;
+	text-decoration:none;
+}
+.mc_cms_preview_draft
+{
+	background:url("Images/preview_draft.gif") 0px 0px no-repeat;
+}
+.mc_cms_preview_live				
+{
+	background:url("Images/preview_live.gif") 0px 0px no-repeat;
+	padding-left:35px;
+}
+.mc_cms_preview_btn 
+{
+	float:right;
+	width:300px;		
+	padding:0; margin:0px 0 0 0;
+}
+.mc_cms_settings
+{
+	display:block;
+}
+.mc_cms_content
+{
+	display:block;
+/*	--width:755px;
+	margin-left:4px;*/
+}
+.mc_cms_tabs 
+{
+	color: #000000;			
+	float:left;
+	padding:0;
+	margin:0;
+	width:350px;	
+}
+.mc_cms_tabs li 
+{
+	display: inline;
+	overflow: hidden;
+	list-style-type: none; 	
+	float:left;
+}
+.mc_cms_tabs a
+{
+	font-size:12px;
+	font-family: Tahoma, Arial;
+	font-weight:bold;
+	color:#000;
+}
+.mc_cms_tabs li.tabSettings a, .mc_cms_tabs li.tabSettings a.mc_cms_tab_selected 
+{
+	background: url("Images/tabSettings.gif") 0px 0px no-repeat;
+	width:129px;
+	height:25px;
+	padding:10px 0 0 0;
+	text-align:center;
+	display:block;
+}
+.mc_cms_tabs li.tabContent a, .mc_cms_tabs li.tabContent a.mc_cms_tab_selected
+{
+	background: url("Images/tabContent.gif") 0px 0px no-repeat;
+	width:128px;
+	height:25px;
+	padding:10px 0 0 0;
+	text-align:center;
+	display:block;
+}
+.mc_cms_tabs a.mc_cms_tab_unselected 
+{
+	cursor:pointer
+}
+.mc_cms_tabs li.tabSettings a.mc_cms_tab_selected, .mc_cms_tabs li.tabContent a.mc_cms_tab_selected
+{
+	background-position:0 -35px;
+	display:block;
+}
+.mc_cms_default_settings_loaded
+{
+    display:block;
+    padding:0 5px 0 10px;
+    margin:0 0 10px 0;
+	/*float:right;*/
+}
+.mc_cms_compare_close
+{        
+    float:right;
+}
+.mc_cms_contentFrame
+{
+	clear:both;
+	height:630px;
+	width:99%;
+}
+.mc_cms_Buttons
+{
+	padding-top:15px;
+	text-align:right;
+}
+.mc_cms_SettingsError
+{
+	padding:0 0 0px 15px;
+}
+/*******************************************************************************************/
+/* Styles used in all SettingsBox user controls.										   */
+/*******************************************************************************************/
+.mc_cms_heading					/* Style used for title on sections. */
+{
+	color:#fff;
+	font:16px Tahoma, Arial;
+	font-weight:normal;		
+	background: url('images/section_header.gif') 0 0 no-repeat;
+	display:block;
+	height:30px;	
+	padding:5px 6px 0 8px;
+}
+.mc_cms_first_section
+{
+	margin-left:12px;
+}
+.mc_cms_section
+{
+    margin:10px 0 0 12px;
+}
+.mc_cms_settings_section
+{
+	border:solid 0px #cdcdcd;
+	padding:7px 0 0 6px;
+}
+.mc_cms_settings_label_column
+{
+	width:100px;
+}
+
+.mc_cms_settings_textbox_column
+{
+    width:417px;
+}
+
+.mc_cms_navigation_checkbox
+{
+	margin-left:-4px ! important;
+}
+.mc_cms_rdStaticPages
+{
+	font:11px Tahoma, Arial;
+	margin-left:-8px ! important;
+}
+.mc_cms_meta_tags_input
+{
+	font:11px Arial;
+	width:345px;
+}
+.mc_cms_dropdown_templates_column
+{
+	width:245px;
+}
+.mc_cms_content_placeholders
+{
+	margin:5px 15px 15px 15px;
+}
+/*******************************************************************************************/
+/* Styles used in user control PagePreview.ascx.										   */
+/*******************************************************************************************/
+.mc_cms_preview_heading
+{
+	background: url('images/section_header_preview.gif') 0 0 no-repeat;
+}
+/*******************************************************************************************/
+/* Styles used in user control Languages.ascx.											   */
+/*******************************************************************************************/
+.mc_cms_lang_link, .mc_cms_lang_link_selected					
+{
+	font:12px Tahoma, Arial;
+	font-weight:bold;
+}
+.mc_cms_lang_link
+{
+	color:#000000;
+}
+.mc_cms_lang_link_selected				
+{
+	color:#7eba00;
+}
+/*******************************************************************************************/
+/* Styles used in user control Pager.ascx												   */
+/*******************************************************************************************/
+.mc_cms_pager 
+{
+	font:12px Tahoma, Arial;
+	padding:10px 10px 10px 0;
+	font-weight:bold;
+	color:#479C06;
+}
+.mc_cms_pager a
+{
+	color:#000;
+}
+.mc_cms_pager_lbl
+{
+	color:#000;
+	font:11px Tahoma, Arial;
+	font-weight:bold;
+}
+.mc_cms_pager a.mc_cms_next, .mc_cms_pager a.mc_cms_previous
+{
+	 font:11px Tahoma, Arial;
+	 font-weight:bold;
+}
+.mc_cms_pager a.mc_cms_next
+{
+	 background: url('images/next.gif') 100% 80% no-repeat;
+	 padding-right:8px;
+}
+.mc_cms_pager a.mc_cms_previous
+{
+	 background: url('images/previous.gif') 0% 80% no-repeat;
+	 padding-left:8px;
+}
+/*******************************************************************************************/
+/* Styles used in user control Compare.ascx												   */
+/*******************************************************************************************/
+.mc_cms_body {
+    width:960px;
+    margin:20px auto;
+    font:11px Tahoma;
+    line-height:12px;
+}
+.mc_cms_top_left_corner {
+    background: url('images/mc_cms_panels_inner_section_top_left.gif') 0% 0 no-repeat;
+    height:5px;
+    padding-left:3px;
+}
+.mc_cms_top_right_corner {
+    background: url('images/mc_cms_panels_inner_section_top_right.gif') 100% 0 no-repeat;
+    height:5px;
+}
+.mc_cms_content_border {
+    padding:12px;
+}
+.mc_cms_bottom_left_corner {
+    background: url('images/mc_cms_panels_inner_section_footer_left.gif') 0% 0 no-repeat;
+    height:11px;
+    padding-left:3px;
+}
+.mc_cms_bottom_right_corner {
+     background: url('images/mc_cms_panels_inner_section_footer_right.gif') 100% 0 no-repeat;
+     height:11px;
+}
+.mc_cms_compare_screen_title {
+    font-weight:bold;
+    font-size:12px;
+    padding:4px 0 10px 0;
+    float:left;
+}
+.mc_cms_compare_left_div {
+     background: url('images/grid_th_left.gif') 0% 0 no-repeat;
+     padding-left: 4px;
+}
+ .mc_cms_compare_right_div {
+     background: url('images/grid_th_right.gif') 100% 0 no-repeat;
+     padding-right:4px;
+}
+.mc_cms_compare_table
+{         
+}
+.mc_cms_compare_table th {
+    color:#fff;            
+    padding:0px 0 0px 13px;
+    height:34px;
+    *height:32px;
+    border-bottom: solid 4px #fff;
+    text-align:left;
+}
+ .mc_cms_compare_table td
+{
+    padding:5px 10px 5px 13px;                
+}
+.mc_cms_header
+{
+    color:#479c06;
+    font:12px Tahoma, Arial;
+    font-weight:bold;    	        
+}   
+.mc_cms_td_delimiter
+{
+    border-right:1px solid #fff;
+}
+.mc_cms_difference
+{
+    background-color:#b2d666;
+}
+
+#backgroundPopup
+{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:100%;
+	width:100%;
+	top:0;
+	left:0; 
+	background:#000000;
+	border:1px solid #cecece;
+	z-index:1;
+}
+
+#popupContact
+{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:700px;
+	width:1050px;
+	background:#FFFFFF;
+	border:2px solid #cecece;
+	z-index:2;
+	padding:0px;
+	font-size:13px;
+	overflow:scroll;
+}
+
+/********** FULLSCREEN **********/
+--.clnr{clear:both;display:block;height:0;line-height:0;font-size:0}
+
+.mc_cms_menu_section{width:98%}
+.mc_cms_panels{width:98%;min-width:1078px}
+* html .mc_cms_panels{width:1078px}
+.mc_cms_explorer{width:100%}
+.mc_cms_tree{width:100%}
+.mc_cms_explorer_layout{width:100%;background:url(images/welcome_bgr-lft.gif) no-repeat left top}
+.mc_cms_explorer_layout .rght{height:538px;background:url(images/welcome_bgr-rght.gif) no-repeat right top}
+.mc_cms_panels_boder_top,
+.mc_cms_panels_border_middle{background:none}
+.mc_cms_panels_boder_top{padding:0;margin:10px auto}
+
+.mc_cms_grid{width:100%}
+
+.mc_cms_tp_lft{background:url(images/panels_inner_section_tp-lft.gif) no-repeat left top}
+.mc_cms_tp_rght{background:url(images/panels_inner_section_tp-rght.gif) no-repeat right top}
+.mc_cms_bttm_lft{background:url(images/panels_inner_section_bttm-lft.gif) no-repeat left bottom}
+.mc_cms_bttm_rght{background:url(images/panels_inner_section_bttm-rght.gif) no-repeat right bottom}
+
+.mc_cms_panels_inner_section_explorer_padding .mc_cms_tp_lft{background-position:left 34px}
+.mc_cms_panels_inner_section_explorer_padding .mc_cms_tp_rght{background-position:right 34px}
+.mc_cms_panels_inner_section_explorer_padding .mc_cms_bttm_rght{min-height:400px}
+
+.mc_cms_clear,
+.mc_cms_panels_inner_section_content,
+.mc_cms_panels_inner_section_footer{background:none}
+
+.mc_cms_panels_inner_section_content h3{background:url(images/grid_th_right.gif) no-repeat right top;margin:0 12px 0 0}
+.mc_cms_panels_inner_section_content h3 span{background:url(images/grid_th_left.gif) no-repeat left top}
+
+/********************* COLLAPSABLE PANEL **********************/
+/*
+div#divPanels {
+	--position: relative;			
+}
+*/
+div#control
+{
+    vertical-align:middle;
+    width:20px;
+    float:left; 
+    margin-top:300px;
+    
+}
+a#controlbtn{
+	color: #333;
+	text-decoration: none;
+	display: inline-block;	
+	width:20px;
+	height:23px;
+}
+a#controlbtn.mc_cms_open {
+	background: transparent url(images/left.gif) no-repeat left center;
+}
+
+a#controlbtn.mc_cms_close {
+	background: transparent url(images/right.gif) no-repeat left center;
+}
+.mc_cms_left_border
+{
+    border-right:solid 3px #929292;
+}
+.mc_cms_language_bar{position:absolute;right:0;top:52px;margin:0}
+#divRightPanel iframe{margin:0 0 0 1px}
+* html .mc_cms_tab_container{height:35px}
+* html #divRightPanel{height:100px}
+* html #divRightPanel h3{height:30px}
+* html .mc_cms_bttm_rght{height:400px}

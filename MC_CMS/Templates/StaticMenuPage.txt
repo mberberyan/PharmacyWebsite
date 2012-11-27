@@ -1,0 +1,13 @@
+﻿<%@ Page Language="C#" Title="<%$ Resources: $CLASS$, $CODE$_title %>" %>
+
+<html>
+    <head id="Head1" runat="server"></head>
+    <body></body>
+</html>
+
+<script runat="server">
+	protected void Page_Load(object sender, EventArgs e)
+	{
+		Response.Redirect("$URL$");
+	}
+</script>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?><root><xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"><xsd:import namespace="http://www.w3.org/XML/1998/namespace" /><xsd:element name="root" msdata:IsDataSet="true"><xsd:complexType><xsd:choice maxOccurs="unbounded"><xsd:element name="metadata"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" /></xsd:sequence><xsd:attribute name="name" use="required" type="xsd:string" /><xsd:attribute name="type" type="xsd:string" /><xsd:attribute name="mimetype" type="xsd:string" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element><xsd:element name="assembly"><xsd:complexType><xsd:attribute name="alias" type="xsd:string" /><xsd:attribute name="name" type="xsd:string" /></xsd:complexType></xsd:element><xsd:element name="data"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /><xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /><xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /><xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /><xsd:attribute ref="xml:space" /></xsd:complexType></xsd:element><xsd:element name="resheader"><xsd:complexType><xsd:sequence><xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /></xsd:sequence><xsd:attribute name="name" type="xsd:string" use="required" /></xsd:complexType></xsd:element></xsd:choice></xsd:complexType></xsd:element></xsd:schema><resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>2.0</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="About_description" xml:space="preserve">
+  <value></value>
+</data><data name="About_hoverImage" xml:space="preserve">
+  <value></value>
+</data><data name="About_image" xml:space="preserve">
+  <value></value>
+</data><data name="About_keywords" xml:space="preserve">
+  <value></value>
+</data><data name="About_metatitle" xml:space="preserve">
+  <value>About</value>
+</data><data name="About_selectedImage" xml:space="preserve">
+  <value></value>
+</data><data name="About_title" xml:space="preserve">
+  <value>About</value>
+</data><data name="Company_description" xml:space="preserve">
+  <value></value>
+</data><data name="Company_hoverImage" xml:space="preserve">
+  <value></value>
+</data><data name="Company_image" xml:space="preserve">
+  <value></value>
+</data><data name="Company_keywords" xml:space="preserve">
+  <value></value>
+</data><data name="Company_metatitle" xml:space="preserve">
+  <value>Company</value>
+</data><data name="Company_selectedImage" xml:space="preserve">
+  <value></value>
+</data><data name="Company_title" xml:space="preserve">
+  <value>Company</value>
+</data><data name="Contacts_description" xml:space="preserve">
+  <value></value>
+</data><data name="Contacts_hoverImage" xml:space="preserve">
+  <value></value>
+</data><data name="Contacts_image" xml:space="preserve">
+  <value></value>
+</data><data name="Contacts_keywords" xml:space="preserve">
+  <value></value>
+</data><data name="Contacts_metatitle" xml:space="preserve">
+  <value>Contacts</value>
+</data><data name="Contacts_selectedImage" xml:space="preserve">
+  <value></value>
+</data><data name="Contacts_title" xml:space="preserve">
+  <value>Contacts</value>
+</data><data name="Forum_hoverImage" xml:space="preserve">
+  <value></value>
+</data><data name="Forum_image" xml:space="preserve">
+  <value></value>
+</data><data name="Forum_selectedImage" xml:space="preserve">
+  <value></value>
+</data><data name="Forum_title" xml:space="preserve">
+  <value>Forum</value>
+</data><data name="Home_description" xml:space="preserve">
+  <value></value>
+</data><data name="Home_hoverImage" xml:space="preserve">
+  <value></value>
+</data><data name="Home_image" xml:space="preserve">
+  <value></value>
+</data><data name="Home_keywords" xml:space="preserve">
+  <value></value>
+</data><data name="Home_metatitle" xml:space="preserve">
+  <value>Home</value>
+</data><data name="Home_selectedImage" xml:space="preserve">
+  <value></value>
+</data><data name="Home_title" xml:space="preserve">
+  <value>Home</value>
+</data><data name="News_hoverImage" xml:space="preserve">
+  <value></value>
+</data><data name="News_image" xml:space="preserve">
+  <value></value>
+</data><data name="News_selectedImage" xml:space="preserve">
+  <value></value>
+</data><data name="News_title" xml:space="preserve">
+  <value>News</value>
+</data><data name="Products_hoverImage" xml:space="preserve">
+  <value></value>
+</data><data name="Products_image" xml:space="preserve">
+  <value></value>
+</data><data name="Products_selectedImage" xml:space="preserve">
+  <value></value>
+</data><data name="Products_title" xml:space="preserve">
+  <value>Products</value>
+</data><data name="Services_description" xml:space="preserve">
+  <value></value>
+</data><data name="Services_hoverImage" xml:space="preserve">
+  <value></value>
+</data><data name="Services_image" xml:space="preserve">
+  <value></value>
+</data><data name="Services_keywords" xml:space="preserve">
+  <value></value>
+</data><data name="Services_metatitle" xml:space="preserve">
+  <value>Services</value>
+</data><data name="Services_selectedImage" xml:space="preserve">
+  <value></value>
+</data><data name="Services_title" xml:space="preserve">
+  <value>Services</value>
+</data><data name="Team_description" xml:space="preserve">
+  <value></value>
+</data><data name="Team_hoverImage" xml:space="preserve">
+  <value></value>
+</data><data name="Team_image" xml:space="preserve">
+  <value></value>
+</data><data name="Team_keywords" xml:space="preserve">
+  <value></value>
+</data><data name="Team_metatitle" xml:space="preserve">
+  <value>Team</value>
+</data><data name="Team_selectedImage" xml:space="preserve">
+  <value></value>
+</data><data name="Team_title" xml:space="preserve">
+  <value>Team</value>
+</data></root>

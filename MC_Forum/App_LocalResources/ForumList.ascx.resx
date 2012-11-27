@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Administrator" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="Anonymous" xml:space="preserve">
+    <value>Anonymous</value>
+  </data>
+  <data name="btnCreateForumGroup.Text" xml:space="preserve">
+    <value>Create Forum Group</value>
+  </data>
+  <data name="btnCreateForumGroup.Width" xml:space="preserve">
+    <value>135</value>
+  </data>
+  <data name="ConfirmMessageForumDelete" xml:space="preserve">
+    <value>Are you sure you want to delete the forum? </value>
+  </data>
+  <data name="ConfirmMessageForumGroupDelete" xml:space="preserve">
+    <value>Are you sure you want to delete the forum group? All its forums will be deleted too!</value>
+  </data>
+  <data name="ErrorMessageForumDelete" xml:space="preserve">
+    <value>Error occurred while trying to delete forum "{0}" from group "{1}".</value>
+  </data>
+  <data name="ErrorMessageForumGroupDelete" xml:space="preserve">
+    <value>Error occurred while trying to delete the forum group "{0}".</value>
+  </data>
+  <data name="ErrorMessageForumGroupMoveDown" xml:space="preserve">
+    <value>Error occured while trying to move down the forum group.</value>
+  </data>
+  <data name="ErrorMessageForumGroupMoveUp" xml:space="preserve">
+    <value>Error occured while trying to move up the forum group. </value>
+  </data>
+  <data name="ErrorMessageForumGroupNotExist" xml:space="preserve">
+    <value>Forum group "{0}" doesn't exist anymore. It could be deleted by another user.</value>
+  </data>
+  <data name="ErrorMessageForumNotExist" xml:space="preserve">
+    <value>Forum "{0}" from group "{1}" doesn't exist anymore. It could be deleted by another user.</value>
+  </data>
+  <data name="ibtnCreateForum.Tooltip" xml:space="preserve">
+    <value>Create forum</value>
+  </data>
+  <data name="ibtnDeleteForumGroup.ToolTip" xml:space="preserve">
+    <value>Delete forum group</value>
+  </data>
+  <data name="ibtnEditForumGroup.ToolTip" xml:space="preserve">
+    <value>Edit forum group</value>
+  </data>
+  <data name="ibtnMoveDownForumGroup.ToolTip" xml:space="preserve">
+    <value>Move down forum group</value>
+  </data>
+  <data name="ibtnMoveUpForumGroup.ToolTip" xml:space="preserve">
+    <value>Move up forum group </value>
+  </data>
+  <data name="ibtnOpenPost.Tooltip" xml:space="preserve">
+    <value>Go to post</value>
+  </data>
+  <data name="imgClosed.AlternateText" xml:space="preserve">
+    <value>Closed forum</value>
+  </data>
+  <data name="imgClosed.Tooltip" xml:space="preserve">
+    <value>Closed forum</value>
+  </data>
+  <data name="imgIsActiveForum.AlternateText" xml:space="preserve">
+    <value>Inactive forum</value>
+  </data>
+  <data name="imgIsActiveForum.ToolTip" xml:space="preserve">
+    <value>Inactive forum</value>
+  </data>
+  <data name="imgIsActiveGroup.AlternateText" xml:space="preserve">
+    <value>Inactive group</value>
+  </data>
+  <data name="imgIsActiveGroup.ToolTip" xml:space="preserve">
+    <value>Inactive group</value>
+  </data>
+  <data name="lblAuthorTitle.Text" xml:space="preserve">
+    <value>Author:</value>
+  </data>
+  <data name="lblForumTitle.Text" xml:space="preserve">
+    <value>Forum</value>
+  </data>
+  <data name="lblLastPostTitle.Text" xml:space="preserve">
+    <value>Last Post</value>
+  </data>
+  <data name="lblPostsTitle.Text" xml:space="preserve">
+    <value>Posts</value>
+  </data>
+  <data name="lblTopicsTitle.Text" xml:space="preserve">
+    <value>Topics</value>
+  </data>
+  <data name="lbtnDeleteForum.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lbtnEditForum.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="lbtnOpenForum.ToolTip" xml:space="preserve">
+    <value>Open forum</value>
+  </data>
+  <data name="lbtnProfileDetails.Tooltip" xml:space="preserve">
+    <value>View user profile</value>
+  </data>
+  <data name="MessageSuccessfulForumDelete" xml:space="preserve">
+    <value>Forum "{0}"  from group "{1}" was successfully deleted.</value>
+  </data>
+  <data name="MessageSuccessfulForumGroupDelete" xml:space="preserve">
+    <value>Forum group "{0}" was successfully deleted.</value>
+  </data>
+  <data name="Moderator" xml:space="preserve">
+    <value>Moderator</value>
+  </data>
+  <data name="UserNotAllowedToAddForum" xml:space="preserve">
+    <value>You are not allowed to create a forum!</value>
+  </data>
+  <data name="UserNotAllowedToAddForumGroup" xml:space="preserve">
+    <value>You are not allowed to create a forum group!</value>
+  </data>
+  <data name="UserNotAllowedToDeleteForum" xml:space="preserve">
+    <value>You are not allowed to delete the forum!</value>
+  </data>
+  <data name="UserNotAllowedToDeleteForumGroup" xml:space="preserve">
+    <value>You are not allowed to delete a forum group!</value>
+  </data>
+  <data name="UserNotAllowedToEditForum" xml:space="preserve">
+    <value>You are not allowed to edit the forum!</value>
+  </data>
+  <data name="UserNotAllowedToEditForumGroup" xml:space="preserve">
+    <value>You are not allowed to edit a forum group!</value>
+  </data>
+  <data name="UserNotAllowedToMoveDownForumGroup" xml:space="preserve">
+    <value>You are not allowed to move down a forum group!</value>
+  </data>
+  <data name="UserNotAllowedToMoveUpForumGroup" xml:space="preserve">
+    <value>You are not allowed to move up a forum group!</value>
+  </data>
+</root>

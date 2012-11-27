@@ -1,0 +1,20 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MPBase.master" AutoEventWireup="true" CodeFile="MPInnerPage.master.cs" Inherits="MPInnerPage" %>
+<%@ Register Src="~/Controls/SubNavigation.ascx" TagPrefix="melon" TagName="SubNavigation" %>
+
+<asp:Content ID="cHead" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="cBase" ContentPlaceHolderID="cphBase" Runat="Server">
+    <!-- Begin Left Sub Navigation-->
+    <div class="inner_sub_nav">
+        <melon:SubNavigation ID="cntrlSubNavigation" runat="server"/>
+    </div>
+    <!-- End Left Sub Navigation-->
+    
+    <!-- Begin Right Content-->
+    <div class="inner_right_content">
+        <asp:ContentPlaceHolder ID="cphPageContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <!-- End Right Content-->
+</asp:Content>
+

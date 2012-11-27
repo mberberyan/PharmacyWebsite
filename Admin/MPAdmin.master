@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MPAdmin.master.cs" Inherits="Admin_MPAdmin" %>
+<%@ Register Src="~/Admin/Controls/Header.ascx" TagPrefix="melon" TagName="Header" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Administration</title>
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="formAdmin" runat="server">
+    <melon:Header runat="server" />
+    
+    <div class="admin_border">
+        <div class="main_panel">
+            <table cellpadding="0" cellspacing="0" width="100%" class="min_height">
+                <tr>
+                    <td valign="top">
+                        <asp:ContentPlaceHolder ID="cphPageContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

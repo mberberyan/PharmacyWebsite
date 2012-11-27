@@ -1,0 +1,169 @@
+#backgroundImagePopup
+{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background:#000000;
+	border:1px solid #cecece;
+	z-index:1;
+}
+
+#popupImageContact
+{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	--height:244px;
+	--width:408px;	
+	background:#FFFFFF;
+	border:2px solid #cecece;
+	z-index:2;
+	padding:12px;
+	font-size:13px;
+}
+
+#popupImageContactClose
+{
+	font-size:14px;
+	line-height:14px;
+	right:6px;
+	top:4px;
+	position:absolute;
+	color:#6fa5fd;
+	font-weight:700;
+	display:block;
+	cursor:pointer;
+}
+
+#backgroundAudioPopup
+{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background:#000000;
+	border:1px solid #cecece;
+	z-index:1;
+}
+
+#popupAudioContact
+{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:244px;
+	width:408px;
+	background:#FFFFFF;
+	border:2px solid #cecece;
+	z-index:2;
+	padding:12px;
+	font-size:13px;
+}
+
+#popupAudioContactClose
+{
+	font-size:14px;
+	line-height:14px;
+	right:6px;
+	top:4px;
+	position:absolute;
+	color:#6fa5fd;
+	font-weight:700;
+	display:block;
+	cursor:pointer;
+}
+
+#backgroundVideoPopup
+{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background:#000000;
+	border:1px solid #cecece;
+	z-index:1;
+}
+
+#popupVideoContact
+{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:244px;
+	width:408px;
+	background:#FFFFFF;
+	border:2px solid #cecece;
+	z-index:2;
+	padding:12px;
+	font-size:13px;
+}
+
+#popupVideoContactClose
+{
+	font-size:14px;
+	line-height:14px;
+	right:6px;
+	top:4px;
+	position:absolute;
+	color:#6fa5fd;
+	font-weight:700;
+	display:block;
+	cursor:pointer;
+}
+
+#backgroundMeasurementUnitPopup
+{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background:#000000;
+	border:1px solid #cecece;
+	z-index:1;
+}
+
+#popupMeasurementUnitContact
+{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:244px;
+	width:408px;
+	background:#FFFFFF;
+	border:2px solid #cecece;
+	z-index:2;
+	padding:12px;
+	font-size:13px;
+}
+
+#popupMeasurementUnitContactClose
+{
+	font-size:14px;
+	line-height:14px;
+	right:6px;
+	top:4px;
+	position:absolute;
+	color:#6fa5fd;
+	font-weight:700;
+	display:block;
+	cursor:pointer;
+}
+
+#button
+{
+	text-align:center;
+	margin:100px;
+}

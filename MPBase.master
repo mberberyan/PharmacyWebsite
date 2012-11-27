@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MPBase.master.cs" Inherits="MPBase" %>
+
+<%@ Register Src="~/Controls/Header.ascx" TagPrefix="melon" TagName="Header" %>
+<%@ Register Src="~/Controls/Footer.ascx" TagPrefix="melon" TagName="Footer" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+  
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="main_div">
+        <div>
+            <div class="logo">
+                <h1>
+                    Company Name</h1>
+            </div>
+            <div class="log_status">
+                <asp:LoginStatus ID="cntrlLoginStatus" runat="server" />&nbsp;|&nbsp;<asp:HyperLink NavigateUrl="~/Admin/Default.aspx" runat="server" >Manage website</asp:HyperLink>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <!-- Begin Header -->
+        <melon:Header ID="cntrlHeader" runat="server" />
+        <!-- End Header -->
+        <!-- Begin Content -->
+        <div class="content">
+            <asp:ContentPlaceHolder ID="cphBase" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!-- End Content-->
+        <!-- Begin Footer -->
+        <melon:Footer ID="cntrlFooter" runat="server" />
+        <!-- End Footer -->
+    </div>
+    </form>
+</body>
+</html>

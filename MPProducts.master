@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MPBase.master" AutoEventWireup="true"
+    CodeFile="MPProducts.master.cs" Inherits="MPProducts" %>
+<%@ Import Namespace="Melon.Components.ProductCatalog" %>
+<%@ Import Namespace="Melon.Components.ProductCatalog.Configuration" %>
+
+<%@ Register TagPrefix="melon" TagName="DynamicCategoryExplorer" Src="~/MC_ProductCatalog/Sources/FEDynamicCategoryExplorer.ascx" %>
+<%@ Register TagPrefix="melon" TagName="DynamicPropsBrowse" Src="~/MC_ProductCatalog/Sources/FEDynamicPropsBrowse.ascx" %>
+<%@ Register TagPrefix="melon" TagName="SimpleSearch" Src="~/MC_ProductCatalog/Sources/FESimpleSearch.ascx" %>
+
+<asp:Content ID="cHead" ContentPlaceHolderID="head" runat="Server">
+    <script type="text/javascript" src="<%# ResolveUrl(ProductCatalogSettings.BasePath)+ "Sources/JavaScript/jquery-1.3.2.min.js" %>"></script>
+    <script type="text/javascript" src="<%# ResolveUrl(ProductCatalogSettings.BasePath)+ "Sources/JavaScript/jquery.hoverscroll-0.2.2.js" %>"></script>
+    <script type="text/javascript" src="<%# ResolveUrl(ProductCatalogSettings.BasePath)+ "Sources/JavaScript/popup.js" %>"></script>
+    <script type="text/javascript" src="<%# ResolveUrl(ProductCatalogSettings.BasePath)+ "Example/JavaScript/DemoJSLibrary.js" %>"></script>        
+    <link type="text/css" rel="Stylesheet" href="MC_ProductCatalog/Example/Styles.css" />
+    <style type="text/css">
+        .hoverscroll{}
+    </style>
+
+   <script type="text/javascript">
+        /**
+        * HoverScroll default parameters
+        */
+        $.fn.hoverscroll.params = {
+            vertical: false,
+            width: 700,
+            height: 77,
+            arrows: true,
+            arrowsOpacity: 0.7,
+            debug: false
+        };
+
+        $(document).ready(function() {
+            $('#my-list').hoverscroll();
+        });
+
+        $(document).ready(function() {
+            $('#audio-list').hoverscroll();
+        });
+
+        $(document).ready(function() {
+            $('#video-list').hoverscroll();
+        });
+    </script>
+
+</asp:Content>
+
+<asp:Content ID="cBase" ContentPlaceHolderID="cphBase" runat="Server">
+    <div class="inner_sub_nav">
+        <melon:DynamicCategoryExplorer ID="ucDynamicCategoryExplorer" runat="server" />
+   
+        <melon:DynamicPropsBrowse ID="ucDynamicPropsBrowse" runat="server" />
+       
+    </div>
+     <div class="inner_right_content">
+        <div class="search right">
+            <melon:SimpleSearch ID="ucSimpleSearch" runat="server" />
+        </div>
+        <div class="clear"></div>
+        <div>
+            <asp:ContentPlaceHolder ID="cphProducts" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <div class="clear"></div>
+    
+    <div class="pc_footer">
+        <div class="bottomBox_first">
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/ObjectList.aspx?objType=CatalogList">
+                <h1>Catalogs</h1>
+                <div>View All</div>
+            </asp:HyperLink>
+        </div>
+        <div class="bottomBox_middle">
+            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/ObjectList.aspx?objType=BundleList">
+                <h1>Bundles</h1>
+                <div>View All</div>
+            </asp:HyperLink>
+        </div>
+        <div class="bottomBox_last">
+            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/ObjectList.aspx?objType=CollectionList">
+                <h1>Collections</h1>
+                <div>View All</div>
+            </asp:HyperLink>
+        </div>
+    </div>
+    
+</asp:Content>

@@ -1,0 +1,612 @@
+﻿/*Controls Styles*************************************************************************/
+.mc_forum_maintable
+{
+	font:11px Arial;
+	width:100%;
+}
+.mc_forum_link_nounderline
+{
+	color:#616266;
+	cursor:text;
+	font:11px Arial;
+	text-decoration:none;
+}
+.mc_forum_link
+{
+	color:#616266;
+	font:12px Arial;
+}
+.mc_forum_bold_link
+{
+	color:#616266;
+	font:11px Arial;
+	font-weight:bold;
+}
+.mc_forum_label
+{
+	color:#616266;
+	font:11px Arial;
+	font-weight:bold;
+}
+.mc_forum_button
+{
+	background:#8dc63f;
+	border: solid 1px #D4D4D6;
+	color:#fff;
+	cursor:pointer;
+	font:12px Arial;
+	font-weight:bold;	
+	height:25px;
+}
+.mc_forum_input_short
+{
+	border:1px #C0C0C0 solid;
+	font:12px Arial;
+	width:170px;
+}
+.mc_forum_input_long
+{
+	border:1px #C0C0C0 solid;
+	font:12px Arial;
+	width:430px;
+}
+.mc_forum_validator
+{
+	color:Red;
+}
+.mc_forum_message_box
+{
+	background-color:#f6f5f4;
+	height:20px;
+}
+.mc_forum_message
+{
+	color:Green;
+}
+.mc_forum_popup_error_background
+{
+	background-color:Gray;
+	filter:alpha(opacity = 70);
+	opacity:0.7;
+}
+.mc_forum_popup_error_title
+{
+	color:#636365;
+	font-size:14px;
+	font-weight:bold;
+	padding-bottom:5px;
+}
+.mc_forum_popup_error
+{
+	background-color:#f5f5f5;
+	border:solid 1px Gray;
+	color:#636365;
+	font-family:Arial;
+	font-size:12px;
+	padding:10px;
+	width:300px;
+}
+.mc_forum_error_message
+{
+	color:Red;
+}
+.mc_forum_dropdown_short
+{
+	font:12px Arial;
+	width:170px;
+}
+.mc_forum_dropdown_long
+{
+	font:12px Arial;
+	width:434px;
+}
+.mc_forum_listbox
+{
+	font:12px Arial;
+	width:170px;
+}
+.mc_forum_checkbox
+{
+	margin-left:-4px;
+}
+.mc_forum_pager 
+{
+	background:#DEDEDE;		
+	border-bottom: solid 1px #C0C0C0;
+	padding:2px 4px 5px 10px;
+	margin-bottom:1px;
+	margin-left:1px;
+}
+.mc_forum_pager a
+{
+	color:#3c606e;
+	font:11px Arial;
+}
+.mc_forum_text
+{
+	font:11px Arial;
+}
+/*Common Grid Styles*********************************************************************/
+.mc_forum_grid
+{
+	border-collapse:collapse;
+	color:#636365;
+	font:12px Arial;
+	margin-left:1px;
+	_margin-left:0;
+	padding:0px;	
+	text-align:left;
+	width:100%;
+}
+.mc_forum_grid td
+{
+	border:solid 1px #ffffff;
+	border-collapse:collapse;
+	padding:10px;
+}
+.mc_forum_grid_header
+{
+	background: url('images/header_back.gif') 0 0 repeat-x;
+    height:31px;
+    font-size:14px;
+    padding:0px 10px 0 10px;    
+    border-collapse:collapse;
+    margin-left:1px;
+}
+.mc_forum_grid_header th
+{
+	border:solid 1px #ffffff;
+	padding:0 5px;
+}
+.mc_forum_grid_sub_header
+{
+	background-color:#EAEAEA;
+	color:#ffffff;	
+	font-weight:bold;	
+	height:30px;		
+	color:#8dc63f;
+}
+.mc_forum_grid_sub_header th
+{
+	border:solid 1px #ffffff;
+	
+	padding-bottom:1px;
+	padding:5px 5px 0px 5px;
+}
+
+.mc_forum_grid_col
+{
+	background:#F5F5F5
+}
+
+.mc_forum_grid_col_alternative
+{
+	background:#DEDEDE;
+}
+
+
+/*Common Add/Edit Table Styles****************************************************************/
+.mc_forum_table
+{
+	padding:0px;	
+	text-align:left;
+}
+.mc_forum_table_label_col
+{
+	width:100px;
+}
+.mc_forum_table th
+{
+	background: url('images/header_back.gif') 0 0 repeat-x;
+	border-top: solid 1px #C0C0C0;
+	border-bottom: solid 1px #fff;
+	border-collapse:collapse;
+	color:#636365;
+	font-size:14px;
+    height:31px;
+    margin-left:1px;
+    padding:0px 10px 0 10px;    
+}
+.mc_forum_table_row1_padding
+{
+    padding-top:10px!important;	
+}
+.mc_forum_table td
+{
+	background:#ECECEC;
+	padding-left:10px;	
+	padding-bottom:5px;
+}
+
+/*** Forums Grid Styles*****************************************************************/
+.mc_forum_divForumGroupTitle
+{
+	float:left;
+	padding-top:3px;
+}
+.mc_forum_divForumGroupAdminButtons
+{
+	float:right;
+	vertical-align:top;
+	padding-bottom:4px;
+	padding-right:5px;
+}
+.mc_forum_forumlist_header_col1
+{
+	text-align:left;
+	width:480px;
+	border-left:none !important;
+}
+.mc_forum_forumlist_header_col2
+{
+	text-align:center;
+	width:50px;
+}
+.mc_forum_forumlist_header_col3
+{
+	text-align:center;
+	width:50px;
+}
+.mc_forum_forumlist_header_col4
+{
+	text-align:left;
+	width:270px;
+}
+.mc_forum_forumlist_col1
+{
+	vertical-align:top;
+	/*width:480px;*/
+}
+.mc_forum_forumlist_col2
+{
+	text-align:center;
+	width:50px;
+}
+.mc_forum_forumlist_col3
+{
+	text-align:center;
+	width:50px;
+	background:#D0D0D0;
+}
+.mc_forum_forumlist_col4
+{
+	/*width:270px;*/
+	background:#E7E7E7;
+}
+.mc_forum_tdCreateForumGroupButton
+{
+	text-align:right;
+	padding-top:10px;	
+	padding-right:0px ! important;
+}
+/*Forum Topics Grid Styles*****************************************************************/
+.mc_forum_topiclist_header_col1
+{
+	text-align:center;
+	width:35px;
+}
+.mc_forum_topiclist_header_col2
+{
+	text-align:center;
+	width:345px;
+	padding:0px 5px!important;
+	border-left:none !important;
+}
+
+.mc_forum_topiclist_header_col3
+{
+	text-align:center;
+	width:100px;
+	padding:0px 5px!important;
+}
+.mc_forum_topiclist_header_col4
+{
+	text-align:center;
+	width:50px;
+	padding:0px 5px!important;
+}
+.mc_forum_topiclist_header_col5
+{
+	text-align:center;
+	width:50px;
+	padding:0px 5px!important;
+}
+.mc_forum_topiclist_header_col6
+{
+	text-align:left;
+	width:270px;
+	padding:0px 5px!important;
+}
+.mc_forum_topiclist_col1
+{	
+	vertical-align:top;
+	text-align:center;
+	background:#F6F4F5;
+	width:35px;
+}
+.mc_forum_topiclist_col2
+{	
+	vertical-align:top;
+	background:#ECECEC
+}
+.mc_forum_topiclist_col3
+{	
+	text-align:center;
+}
+.mc_forum_topiclist_col4
+{	
+	text-align:center;
+}
+.mc_forum_topiclist_col5
+{	
+	text-align:center;
+	background:#D0D0D0;
+}
+.mc_forum_topiclist_col6 
+{
+	background:#E7E7E7;
+	padding: 0 10px 0 10px !important;
+	
+}
+.mc_forum_tdCreateTopicButton
+{
+	text-align:right;
+	padding-top:10px;
+	padding-right:0px!important;
+}
+/*** Posts Grid Styles **************************************************************/
+.mc_forum_postlist_col1
+{
+	width:190px;
+	padding:10px ! important;
+	vertical-align:top;
+	border-left: none !important;
+}
+.mc_forum_postlist_col2
+{
+	padding:10px ! important;
+	vertical-align:top;	
+	background:#ECECEC;	
+}
+.mc_forum_divPostDate
+{
+	padding-bottom:5px;
+	border-bottom:dashed 1px #ffffff;
+}
+.mc_forum_divPost
+{
+	padding-top:10px;
+}
+.mc_forum_tdCreateForumPostButton
+{
+	text-align:right;
+	padding-top:10px;
+	padding-right:0px!important;
+}
+/*** ForumGroupAddEdit Styles******************************************/
+.mc_forum_group_table
+{
+	width:600px;
+	padding:0px;
+}
+.mc_forum_divForumGroupButtonCancel
+{
+	float:left;
+	padding:10px 0px 15px 0px ! important;
+}
+.mc_forum_divForumGroupButtonSave
+{
+	float:right;
+	padding:10px 15px 15px 10px ! important;
+}
+
+/*** ForumAddEdit Styles**********************************************************/
+.mc_forum_forum_table
+{
+	width:600px;
+}
+.mc_forum_divForumUsers
+{
+	padding:7px;
+	float:left;
+	width:419px;
+}
+.mc_forum_divAdministrators
+{
+	/*float:left;*/
+}
+.mc_forum_divModerators
+{
+	/*float:right;*/
+}
+.mc_forum_divForumButtonCancel
+{
+	float:left;
+	padding:10px 0px 15px 0px ! important;
+}
+.mc_forum_divForumButtonSave
+{
+	float:right;
+	padding:10px 15px 15px 10px ! important;
+}
+
+/*** ForumTopicAddEdit Styles **************************************************/
+.mc_forum_topic_table
+{
+	width:600px;
+	
+}
+.mc_forum_divForumTopicButtonCancel
+{
+	float:left;
+	padding:10px 0px 15px 0px ! important;
+}
+.mc_forum_divForumTopicButtonPost
+{
+	float:right;
+	padding:10px 17px 15px 10px ! important;
+}
+
+/*** ForumPostAddEdit Styles **************************************************/
+.mc_forum_post_table
+{
+	width:600px;
+}
+.mc_forum_divForumPostButtonCancel
+{
+	float:left;
+	padding:10px 0px 15px 0px ! important;
+}
+.mc_forum_divForumPostButtonPost
+{
+	float:right;
+	padding:10px 17px 15px 10px ! important;
+}
+/*** ForumUserProfile Preview Styles**********************************************************/
+.mc_forum_profile_table
+{
+	font:11px Arial;
+	width:650px;
+}
+/*** ForumUserProfile Edit Styles**********************************************************/
+.mc_forum_userprofile_iframe
+{
+	width:680px;
+	height:450px;
+}
+/*** ForumSearchCriteria Styles***********************************************************************/
+.mc_forum_search_table
+{
+	width:100%
+}
+.mc_forum_divCancelButton
+{
+	float:left;
+	padding:10px 17px 10px 0px ! important;
+}
+.mc_forum_divSearchButton
+{
+	padding:10px 17px 10px 480px ! important;
+}
+
+.mc_forum_tree
+{
+	height:200px;
+	width:432px;
+	overflow:auto;
+	border:solid 1px #C0C0C0;
+	background-color:#ffffff;
+}
+.mc_forum_tree td
+{
+	background-color:#ffffff ! important;
+	padding:0px ! important;
+}
+.mc_forum_search_table_col1
+{
+	width:100px;
+}
+.mc_forum_search_table_col2
+{
+	
+}
+
+
+/*** AJAX Calendar Extender ***************************************************************/
+
+.mc_forum_calendar 
+{
+	display:inline ! important;
+}
+
+.mc_forum_calendar td
+{
+	padding:0px ! important;
+	background:#d4deea ! important;
+}
+
+
+.ajax__calendar_container {padding:4px;position:absolute;cursor:default;width:170px;font-size:11px;text-align:center;font-family:tahoma,verdana,helvetica;}
+.ajax__calendar_body {height:139px;width:170px;position:relative;overflow:hidden;margin:auto;}
+
+.ajax__calendar_days {top:0px;left:0px;height:139px;width:170px;position:absolute;text-align:center;margin:auto;z-index: 3; background-color: White;}
+.ajax__calendar_months {top:0px;left:0px;height:139px;width:170px;position:absolute;text-align:center;margin:auto;z-index: 2; background-color: White;}
+.ajax__calendar_years {top:0px;left:0px;height:139px;width:170px;position:absolute;text-align:center;margin:auto;z-index: 1; background-color: White;}
+
+.ajax__calendar_container TABLE {font-size:11px;}
+.ajax__calendar_header {height:20px;width:100%;}
+.ajax__calendar_prev {cursor:pointer;width:15px;height:15px;float:left;background-repeat:no-repeat;background-position:50% 50%;background-image:url(images/calendar-arrow-left.gif);}
+.ajax__calendar_next {cursor:pointer;width:15px;height:15px;float:right;background-repeat:no-repeat;background-position:50% 50%;background-image:url(images/calendar-arrow-right.gif);}
+.ajax__calendar_title {cursor:pointer;font-weight:bold;}
+.ajax__calendar_footer {height:15px;}
+.ajax__calendar_today {cursor:pointer;padding-top:3px;}
+.ajax__calendar_dayname {height:17px;width:17px;text-align:right;padding:0 2px;}
+.ajax__calendar_day {height:17px;width:18px;text-align:right;padding:0 2px;cursor:pointer;}
+.ajax__calendar_month {height:44px;width:40px;text-align:center;cursor:pointer;overflow:hidden;}
+.ajax__calendar_year {height:44px;width:40px;text-align:center;cursor:pointer;overflow:hidden;}
+
+.ajax__calendar .ajax__calendar_container {border:1px solid #646464;background-color:#ffffff;color:#000000;}
+.ajax__calendar .ajax__calendar_footer {border-top:1px solid #f5f5f5;}
+.ajax__calendar .ajax__calendar_dayname {border-bottom:1px solid #f5f5f5;}
+.ajax__calendar .ajax__calendar_day {border:1px solid #ffffff;}
+.ajax__calendar .ajax__calendar_month {border:1px solid #ffffff;}
+.ajax__calendar .ajax__calendar_year {border:1px solid #ffffff;}
+
+.ajax__calendar .ajax__calendar_active .ajax__calendar_day {background-color:#edf9ff;border-color:#0066cc;color:#0066cc;}
+.ajax__calendar .ajax__calendar_active .ajax__calendar_month {background-color:#edf9ff;border-color:#0066cc;color:#0066cc;}
+.ajax__calendar .ajax__calendar_active .ajax__calendar_year {background-color:#edf9ff;border-color:#0066cc;color:#0066cc;}
+
+.ajax__calendar .ajax__calendar_other .ajax__calendar_day {background-color:#ffffff;border-color:#ffffff;color:#646464;}
+.ajax__calendar .ajax__calendar_other .ajax__calendar_year {background-color:#ffffff;border-color:#ffffff;color:#646464;}
+
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_day {background-color:#edf9ff;border-color:#daf2fc;color:#0066cc;}
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_month {background-color:#edf9ff;border-color:#daf2fc;color:#0066cc;}
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_year {background-color:#edf9ff;border-color:#daf2fc;color:#0066cc;}
+
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_title {color:#0066cc;}
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_today {color:#0066cc;}
+
+/*** ForumSearchResults Styles ***************************************************************/
+.mc_forum_search_results
+{
+	width:100%
+}
+
+/*** ForumErrorInformation Styles *********************************************************/
+.mc_forum_message_table
+{
+	width:100%;
+}
+.mc_forum_message_info
+{
+	padding:40px ! important;
+	text-align:center;
+}
+/*** Breadcrumb Styles ********************************************************************/
+.mc_forum_navigation
+{
+	background:#616266;
+	border-bottom: solid 1px #fff;
+	font-size:12px; 
+    height:20px;  
+    padding:4px 5px 0 7px;
+}
+.mc_forum_navigation a
+{
+	color:#fff;
+}
+.mc_forum_navigation a:hover
+{
+	color:#00D2FF;
+}
+.mc_forum_breadcrumb_link
+{
+	color:#fff;
+	font:12px Arial;
+    padding-right:4px;
+}
+.mc_forum_breadcrumb_separator
+{
+	color:#fff;
+	font:11px Arial;
+}

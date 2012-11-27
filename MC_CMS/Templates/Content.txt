@@ -1,0 +1,9 @@
+﻿<asp:Content ContentPlaceHolderID="$ID$" runat="server">
+    <%
+        string currentLanguage = Thread.CurrentThread.CurrentUICulture.Name;
+        switch (currentLanguage)
+        {
+			$CODE$
+        }
+    %>    
+</asp:Content>

@@ -1,0 +1,24 @@
+<%@ Master Language="C#" AutoEventWireup="true" MasterPageFile="~/MPBase.master"
+    CodeFile="MPDefault.master.cs" Inherits="MPDefault" %>
+
+<%@ Register Src="~/MC_News/Sources/FeaturedNews.ascx" TagPrefix="melon" TagName="FeaturedNews" %>
+<%@ Register Src="~/MC_ProductCatalog/Sources/FEFeaturedProducts.ascx" TagPrefix="melon" TagName="FeaturedProducts" %>
+
+<asp:Content ID="cHead" ContentPlaceHolderID="head" runat="Server">
+</asp:Content>
+<asp:Content ID="cBase" ContentPlaceHolderID="cphBase" runat="server">
+    <div class="home_text">
+        <asp:ContentPlaceHolder ID="cphPageContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="featured">
+        <div class="featured_news">
+            <h2 class="page_title">Featured News</h2>
+            <melon:FeaturedNews ID="cntrlFeaturedNews" runat="server" NewsCount="5" />
+        </div>
+        <div class="featured_products">
+             <h2 class="page_title">Featured Products</h2>
+             <melon:FeaturedProducts ID="cntrlFeaturedProducts" runat="server" NewsCount="5" />
+        </div>
+    </div>
+</asp:Content>
