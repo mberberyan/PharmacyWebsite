@@ -7,11 +7,11 @@
 <asp:Content ID="cHead" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
 <asp:Content ID="cBase" ContentPlaceHolderID="cphBase" runat="server">
-    <div class="home_text">
+    <div id="primarycontent">
         <asp:ContentPlaceHolder ID="cphPageContent" runat="server">
         </asp:ContentPlaceHolder>
     </div>
-    <div class="featured">
+    <div id="secondarycontent">
         <div class="featured_news">
             <h2 class="page_title">Featured News</h2>
             <melon:FeaturedNews ID="cntrlFeaturedNews" runat="server" NewsCount="5" />
