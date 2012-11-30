@@ -1,6 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true">
-  <siteMapNode url="" title="" originalUrl="" roles="*">
-    <siteMapNode url="~/test.aspx" originalUrl="~/MC_CMSLiveContent/test.aspx" roles="*" title="$resources:MC_CMSResources,test_title" image="$resources:MC_CMSResources,test_image" hoverImage="$resources:MC_CMSResources,test_hoverImage" selectedImage="$resources:MC_CMSResources,test_selectedImage" target="_self" id="1" code="test" />
-  </siteMapNode>
+  <siteMapNode url="" title="" originalUrl="" roles="*" />
 </siteMap>
