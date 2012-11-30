@@ -1,0 +1,29 @@
+.inner_copy {border:0;color:#f00;float:left;width:50% !important;margin:-100% 0 0 0;overflow:hidden;line-height:0;padding:0;font-size:11px}
+.fleft {float:left}
+.fright  {float:right}
+.fcenter {float:none;margin:0 auto;text-align:center}
+.fclear {clear:both}
+body {margin:0;padding:0}
+.content {background-image:url('../images/contentbg.png');width:873px;height:1027px;margin-left:auto;margin-right:auto}
+.logo {width:825px;margin-left:auto;margin-right:auto}
+.navbar {background-image:url('../images/navbarbg.png');width:827px;height:43px;margin-left:auto;margin-right:auto;text-align:center;line-height:68px}
+img.navimg {vertical-align:middle}
+a.navlink {outline:none;text-decoration:none}
+p.headerp {width:825px;margin-left:auto;margin-right:auto;text-align:center}
+.categories {background-image:url('../images/boxes/categories.png');width:187px;height:406px;padding-top:50px;padding-left:20px}
+table.boxestb {width:829px;margin-left:auto;margin-right:auto}
+td.boxtd {vertical-align:top}
+a.catlink {font-size:14px;font-family:'Arial';font-weight:normal;outline:none;color:#878585;text-decoration:none;line-height:22px}
+p.allproducts {width:165px;text-align:right}
+a.prodlink {font-size:14px;font-family:'Arial';font-weight:bold;outline:none;color:#2ba9f9;text-decoration:none;line-height:21px}
+.doctor24 {background-image:url('../images/boxes/24doctor.png');width:208px;height:209px;margin-left:auto;margin-right:auto;text-align:center}
+.featured {background-image:url('../images/boxes/featuredproducts.png');width:378px;height:690px;margin-left:auto;margin-right:auto;text-align:center;margin-top:-1px}
+span.titleprod {font-size:27px;font-family:'Arial';font-weight:normal;color:#60c8fd}
+p.description {margin-left:auto;margin-right:auto;width:300px;text-align:left;font-size:12px;font-family:'Arial';font-weight:bold;color:#7e7d7d}
+p.btns {width:300px;text-align:right;margin-left:auto;margin-right:auto;margin-top:-10px}
+p.cartext {width:150px;margin-left:auto;margin-right:auto;font-size:15px;font-family:'Arial';font-weight:normal;color:#7e7d7d;text-align:left}
+.yourbasket {background-image:url('../images/boxes/yourbasket.png');width:190px;height:150px;margin-left:auto;margin-right:auto;text-align:right;font-size:13px;font-family:'Arial';font-weight:bold;color:#2ba9f9;padding-right:17px;margin-top:1px}
+.newproducts {background-image:url('../images/boxes/newproducts.png');width:206px;height:516px;margin-left:auto;margin-right:auto;text-align:center;font-size:14px;font-family:'Arial';font-weight:normal;color:#2ba9f9;letter-spacing:-1px}
+p.details {width:170px;margin-left:auto;margin-right:auto;text-align:right;font-size:14px;font-family:'Arial';font-weight:bold;color:#878585}
+#footer {width:850px;margin-left:auto;margin-right:auto;text-align:center;font-size:12px;font-family:'Arial';font-weight:bold;color:#878585}
+#footer div {padding:11px}
