@@ -53,7 +53,9 @@
                     <melon:Header ID="Header2" runat="server" />
                 </div>
                 <div class="log_status">
-                    <asp:LoginStatus ID="LoginStatus2" runat="server" />&nbsp;|&nbsp;<asp:HyperLink ID="HyperLink2" NavigateUrl="~/Admin/Default.aspx" runat="server" >Manage website</asp:HyperLink>
+                    <asp:LoginStatus ID="LoginStatus2" runat="server" />&nbsp;|&nbsp;
+                    <asp:HyperLink ID="HyperLink2" NavigateUrl="~/Admin/Default.aspx" runat="server" >Управление</asp:HyperLink>&nbsp;|&nbsp;
+                    <asp:HyperLink ID="HyperLink1" NavigateUrl="~/templates.htm" runat="server" >Шаблони</asp:HyperLink>
                 </div>
             </div>                        
             

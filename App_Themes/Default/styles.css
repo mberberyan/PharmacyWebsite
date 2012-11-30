@@ -468,55 +468,55 @@ ul.linklist li.first
 
 #date
 {
-position: absolute;
-top: 0px;
-line-height: 52px;
-color: #BDBDA2;
-right: 30px;
-font-weight: bold;
-font-size: 12px;
-letter-spacing: -1px;
+    position: absolute;
+    top: 0px;
+    line-height: 52px;
+    color: #BDBDA2;
+    right: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: -1px;
 }
 
 #secondarycontent
 {
-position: relative;
-width: 230px;
-float: right;
+    position: relative;
+    width: 230px;
+    float: left;
 }
 
 #secondarycontent h3
 {
-position: relative;
-top: 4px;
-font-size: 16px;
-line-height: 25px;
-color: #656551;
-letter-spacing: -1px;
-background: url('images/a22.gif') bottom repeat-x;
-padding: 0px 0px 10px 10px;
-margin-bottom: 20px;
+    position: relative;
+    top: 4px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #656551;
+    letter-spacing: -1px;
+    background: url('images/a22.gif') bottom repeat-x;
+    padding: 0px 0px 10px 10px;
+    margin-bottom: 20px;
 }
 
 #secondarycontent .content
 {
-padding: 0px 10px 0px 10px;
-margin-bottom: 20px;
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 20px;
 }
 
 #footer
 {
-position: relative;
-clear: both;
-height: 66px;
-text-align: center;
-line-height: 66px;
-background-image: url('images/a50.gif');
-color: #A8A88D;
+    position: relative;
+    clear: both;
+    height: 66px;
+    text-align: center;
+    line-height: 66px;
+    background-image: url('images/a50.gif');
+    color: #A8A88D;
 }
 
 #footer a
 {
-color: #8C8C73;
+    color: #8C8C73;
 }
 

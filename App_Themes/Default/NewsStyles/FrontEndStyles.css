@@ -152,9 +152,11 @@
 	padding-bottom:15px;
 	font-size:12px;
 	font-family:Tahoma;
+	border-bottom: 1px solid #CCCCC6;
 }
 .mc_news_fe_featured_news .date_posted {
 	color:#606060;
+	display:none;
 }
 .mc_news_fe_featured_news .title{
 	padding-left:5px;
