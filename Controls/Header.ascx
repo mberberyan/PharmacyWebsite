@@ -15,7 +15,7 @@
     </ul>
     </LayoutTemplate>  
     <ItemTemplate>
-        <li runat="server" id="itemPlaceholder"><a href="#"><%# Eval("title") %></a></li>
+        <li runat="server" id="itemPlaceholder"><a href="<%# Eval("url") %>"><%# Eval("title") %></a></li>
     </ItemTemplate> 
 </asp:ListView>
 
