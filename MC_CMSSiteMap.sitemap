@@ -8,4 +8,4 @@
     <siteMapNode url="~/Contacts.aspx" originalUrl="~/MC_CMSLiveContent/Contacts.aspx" roles="*" title="$resources:MC_CMSResources,Contacts_title" image="$resources:MC_CMSResources,Contacts_image" hoverImage="$resources:MC_CMSResources,Contacts_hoverImage" selectedImage="$resources:MC_CMSResources,Contacts_selectedImage" target="_self" id="5" code="Контакти" />
       <siteMapNode url="~/About.aspx" originalUrl="~/MC_CMSLiveContent/About.aspx" roles="*" title="$resources:MC_CMSResources,About_title" image="$resources:MC_CMSResources,About_image" hoverImage="$resources:MC_CMSResources,About_hoverImage" selectedImage="$resources:MC_CMSResources,About_selectedImage" target="_self" id="1" code="За нас"></siteMapNode>
   </siteMapNode>
-</siteMap>
+</siteMap> 
