@@ -149,7 +149,7 @@
 }
 /*** FeaturedNews.ascx ****************************************************/
 .mc_news_fe_featured_news table td {
-	padding-bottom:5px;
+	padding-bottom:15px;
 	font-size:12px;
 	font-family:Tahoma;
 }

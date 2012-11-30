@@ -8,10 +8,10 @@
         ShowHeader="false">
         <Columns>
             <asp:TemplateField>
-                <ItemTemplate>
-                    <span class="date_posted"><%#Eval("DatePosted","{0:MM/dd/yyyy, hh:mm}") %></span>
+                <ItemTemplate>                    
                     <asp:HyperLink ID="hplReadMore" runat="server" CssClass="title" Text='<%#Server.HtmlEncode(Eval("Title").ToString()) %>'
                         NavigateUrl='<%# NewsSettings.NewsDetailsPagePath + "?cat_id=" + ((Eval("CategoryId")==DBNull.Value)?"-1" : Eval("CategoryId") )+ "&news_id=" + Eval("Id") %>'/>
+                    <span class="date_posted"><%#Eval("DatePosted","{0:MM/dd/yyyy, hh:mm}") %></span>
                     <div style="padding-top:3px;"><%#Eval("Summary")%></div>    
                 </ItemTemplate>
             </asp:TemplateField>
