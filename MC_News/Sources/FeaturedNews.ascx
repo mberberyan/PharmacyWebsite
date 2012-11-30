@@ -5,7 +5,7 @@
 <div class="mc_news_fe_featured_news" >
     <melon:Pager ID="topPager" runat="server" ShowItemsDetails="false" Visible="false" CssClass="mc_news_pager"/>
     <asp:GridView ID="gvNews" runat="server" AutoGenerateColumns="false" GridLines="None"
-        ShowHeader="false">
+        ShowHeader="false"> 
         <Columns>
             <asp:TemplateField>
                 <ItemTemplate>                    
