@@ -1,4 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true">
-  <siteMapNode url="" title="" originalUrl="" roles="*" />
+  <siteMapNode url="" title="" originalUrl="" roles="*">
+    <siteMapNode url="~/Home.aspx" originalUrl="~/MC_CMSLiveContent/Home.aspx" roles="*" title="$resources:MC_CMSResources,Home_title" image="$resources:MC_CMSResources,Home_image" hoverImage="$resources:MC_CMSResources,Home_hoverImage" selectedImage="$resources:MC_CMSResources,Home_selectedImage" target="_self" id="6" code="Начало" />
+      <siteMapNode url="~/Products.aspx" originalUrl="~/Products.aspx" roles="*" title="$resources:MC_CMSResources,Products_title" image="$resources:MC_CMSResources,Products_image" hoverImage="$resources:MC_CMSResources,Products_hoverImage" selectedImage="$resources:MC_CMSResources,Products_selectedImage" target="_self" id="2" code="Продукти" />    
+    <siteMapNode url="~/Forum.aspx" originalUrl="~/Forum.aspx" roles="*" title="$resources:MC_CMSResources,Forum_title" image="$resources:MC_CMSResources,Forum_image" hoverImage="$resources:MC_CMSResources,Forum_hoverImage" selectedImage="$resources:MC_CMSResources,Forum_selectedImage" target="_self" id="3" code="Форум" />
+    <siteMapNode url="~/News.aspx" originalUrl="~/News.aspx" roles="*" title="$resources:MC_CMSResources,News_title" image="$resources:MC_CMSResources,News_image" hoverImage="$resources:MC_CMSResources,News_hoverImage" selectedImage="$resources:MC_CMSResources,News_selectedImage" target="_self" id="4" code="Новини" />
+    <siteMapNode url="~/Contacts.aspx" originalUrl="~/MC_CMSLiveContent/Contacts.aspx" roles="*" title="$resources:MC_CMSResources,Contacts_title" image="$resources:MC_CMSResources,Contacts_image" hoverImage="$resources:MC_CMSResources,Contacts_hoverImage" selectedImage="$resources:MC_CMSResources,Contacts_selectedImage" target="_self" id="5" code="Контакти" />
+      <siteMapNode url="~/About.aspx" originalUrl="~/MC_CMSLiveContent/About.aspx" roles="*" title="$resources:MC_CMSResources,About_title" image="$resources:MC_CMSResources,About_image" hoverImage="$resources:MC_CMSResources,About_hoverImage" selectedImage="$resources:MC_CMSResources,About_selectedImage" target="_self" id="1" code="За нас"></siteMapNode>
+  </siteMapNode>
 </siteMap>
